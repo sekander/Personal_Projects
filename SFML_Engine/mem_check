@@ -1,8 +1,0 @@
-
-==27658== LEAK SUMMARY:
-==27658==    definitely lost: 1,296 bytes in 4 blocks
-==27658==    indirectly lost: 499,113 bytes in 1,194 blocks
-==27658==      possibly lost: 24,410,243 bytes in 6,458 blocks
-==27658==    still reachable: 215,768 bytes in 1,173 blocks
-==27658==         suppressed: 0 bytes in 0 blocks
-

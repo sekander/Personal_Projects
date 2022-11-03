@@ -1,9 +1,0 @@
-<map id="/mnt/hdd/C0de/smart_engine/include/LoadingGameObjects.h" name="/mnt/hdd/C0de/smart_engine/include/LoadingGameObjects.h">
-<area shape="rect" id="node2" href="$main__menu__state_8h.html" title="/mnt/hdd/C0de/smart\l_engine/include/main\l_menu_state.h" alt="" coords="77,109,223,165"/>
-<area shape="rect" id="node4" href="$main__menu__state_8cpp.html" title="/mnt/hdd/C0de/smart\l_engine/src/main_menu\l_state.cpp" alt="" coords="181,213,341,269"/>
-<area shape="rect" id="node5" href="$game__over__state_8cpp.html" title="/mnt/hdd/C0de/smart\l_engine/src/game_over\l_state.cpp" alt="" coords="298,109,455,165"/>
-<area shape="rect" id="node6" href="$game__play__state_8cpp.html" title="/mnt/hdd/C0de/smart\l_engine/src/game_play\l_state.cpp" alt="" coords="480,109,636,165"/>
-<area shape="rect" id="node7" href="$LoadingGameObjects_8cpp.html" title="/mnt/hdd/C0de/smart\l_engine/src/LoadingGameObjects.cpp" alt="" coords="661,117,903,158"/>
-<area shape="rect" id="node8" href="$splash__state_8cpp.html" title="/mnt/hdd/C0de/smart\l_engine/src/splash_state.cpp" alt="" coords="927,117,1119,158"/>
-<area shape="rect" id="node3" href="$game_8cpp.html" title="/mnt/hdd/C0de/smart\l_engine/src/game.cpp" alt="" coords="5,221,156,262"/>
-</map>

@@ -1,3 +1,0 @@
-<map id="Texture2D" name="Texture2D">
-<area shape="rect" id="node2" href="$classEntity.html" title="{Entity\n|+ body\l+ filename\l+ name\l+ i_am_a_sprite_sheet\l+ change_frame\l+ x_frame\l+ y_frame\l+ incrementer\l+ position\l+ size\l+ rotate\l+ color\l+ frame\l# active\l# groupId\l# world\l# bodyDef\l# shape\l# edge\l# circle\l# fixtureDef\l&#45; texture\l|+ Entity()\l+ Load()\l+ CreateEdeg()\l+ CreateEdeg()\l+ Draw()\l+ Update()\l+ CheckCollision()\l+ GroupID()\l+ Active()\l+ DeleteShape()\l+ Destroy()\l+ Enable()\l+ ~Entity()\l}" alt="" coords="5,307,160,868"/>
-</map>
