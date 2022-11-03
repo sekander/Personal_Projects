@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classMapLayer.html" title="MapLayer" alt="" coords="193,5,271,32"/>
+<area shape="rect" id="node3" href="$classMapLayer_1_1Chunk.html" title="Transformable" alt="" coords="179,80,285,107"/>
+<area shape="rect" id="node4" href="$classMapLayer_1_1Chunk_1_1ChunkArray.html" title="MapLayer::Chunk::ChunkArray" alt="" coords="131,131,333,157"/>
+<area shape="rect" id="node5" href="$classTileMap.html" title="TileMap" alt="" coords="381,131,449,157"/>
+</map>

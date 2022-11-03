@@ -1,0 +1,384 @@
+\hypertarget{gltext_8h}{}\section{/mnt/hdd/\+C0de/smart\+\_\+engine/include/gltext.h File Reference}
+\label{gltext_8h}\index{/mnt/hdd/\+C0de/smart\+\_\+engine/include/gltext.\+h@{/mnt/hdd/\+C0de/smart\+\_\+engine/include/gltext.\+h}}
+{\ttfamily \#include \char`\"{}G\+L/gl.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+Include dependency graph for gltext.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{gltext_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{gltext_8h_a67a14251d45d84381eb6cf27fc760681}{\+\_\+\+G\+L\+T\+\_\+\+A\+S\+S\+E\+RT}(expression)
+\item 
+\#define \hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(str)~\#str
+\item 
+\#define \hyperlink{gltext_8h_afb5349d0435ad558a05d8ba4117c8d55}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+T\+O\+K\+EN}(str)~\hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(str)
+\item 
+\#define \hyperlink{gltext_8h_a5132f3add5f8a9b8ef9896965cf85a3b}{G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON}(major,  minor,  patch)~\hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(major) \char`\"{}.\char`\"{} \hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(minor) \char`\"{}.\char`\"{} \hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(patch)
+\item 
+\#define \hyperlink{gltext_8h_a9c7f809d1768e5f959ad7f0ddc4938c4}{G\+L\+T\+\_\+\+N\+A\+ME}~\char`\"{}gl\+Text\char`\"{}
+\item 
+\#define \hyperlink{gltext_8h_a5dca984536ac85ebd293445dccfef467}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR}~1
+\item 
+\#define \hyperlink{gltext_8h_a55184d8a7dbeb1c821f42b5d6d72b6ba}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR}~1
+\item 
+\#define \hyperlink{gltext_8h_a330c7a3a1fb7be6f127b7c1df66dc979}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH}~6
+\item 
+\#define \hyperlink{gltext_8h_a426ab2585e41480e69776acad6e31dd4}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON}~\hyperlink{gltext_8h_a5132f3add5f8a9b8ef9896965cf85a3b}{G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON}(\hyperlink{gltext_8h_a5dca984536ac85ebd293445dccfef467}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR}, \hyperlink{gltext_8h_a55184d8a7dbeb1c821f42b5d6d72b6ba}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR}, \hyperlink{gltext_8h_a330c7a3a1fb7be6f127b7c1df66dc979}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH})
+\item 
+\#define \hyperlink{gltext_8h_a4f9d36f0b9a091c6a7145b420b148274}{G\+L\+T\+\_\+\+N\+A\+M\+E\+\_\+\+V\+E\+R\+S\+I\+ON}~\hyperlink{gltext_8h_a9c7f809d1768e5f959ad7f0ddc4938c4}{G\+L\+T\+\_\+\+N\+A\+ME} \char`\"{} \char`\"{} \hyperlink{gltext_8h_a426ab2585e41480e69776acad6e31dd4}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON}
+\item 
+\#define \hyperlink{gltext_8h_a77689b1302bd5028dd47bb34ab1f41b8}{G\+L\+T\+\_\+\+N\+U\+LL}~0
+\item 
+\#define \hyperlink{gltext_8h_a8d280924462a5dbe00c2c632579e7b28}{G\+L\+T\+\_\+\+N\+U\+L\+L\+\_\+\+H\+A\+N\+D\+LE}~0
+\item 
+\#define \hyperlink{gltext_8h_a62344ecade473e517e772c1b46ac3b89}{G\+L\+T\+\_\+\+S\+T\+A\+T\+IC}
+\item 
+\#define \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI}~static
+\item 
+\#define \hyperlink{gltext_8h_a0456a5221c8d216aa8cc31115a7ac739}{G\+L\+T\+\_\+\+L\+E\+FT}~0
+\item 
+\#define \hyperlink{gltext_8h_ab832eacdfcaea1db6a44cfea198f6d21}{G\+L\+T\+\_\+\+T\+OP}~0
+\item 
+\#define \hyperlink{gltext_8h_a9efa39ba6350a167d62659d0bc71d4f7}{G\+L\+T\+\_\+\+C\+E\+N\+T\+ER}~1
+\item 
+\#define \hyperlink{gltext_8h_a63c4aa0ddcd72fc132ecbcb3baaae6b5}{G\+L\+T\+\_\+\+R\+I\+G\+HT}~2
+\item 
+\#define \hyperlink{gltext_8h_a404af32d69e041894cb764f94d41c160}{G\+L\+T\+\_\+\+B\+O\+T\+T\+OM}~2
+\item 
+\#define \hyperlink{gltext_8h_a938325ed922121f283d75e0d3f43acc3}{glt\+Destroy\+Text}~\hyperlink{gltext_8h_a8626225912d662c581221f7d46110a15}{glt\+Delete\+Text}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean \hyperlink{gltext_8h_ac1baf6ada3acda741cd0966f72964450}{glt\+Init} (void)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a693e5433513ea66e1818c65ba9ee1591}{glt\+Terminate} (void)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$ \hyperlink{gltext_8h_ac708534d2279befecca6489532a6f0a7}{glt\+Create\+Text} (void)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a8626225912d662c581221f7d46110a15}{glt\+Delete\+Text} (\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean \hyperlink{gltext_8h_a73c48f6c4067b0f3dbcbbaaaacc87129}{glt\+Set\+Text} (\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text, const char $\ast$string)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} const char $\ast$ \hyperlink{gltext_8h_a4b7427eff36dece0d627b2f665b3c323}{glt\+Get\+Text} (\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a970434fcd543d6c4bc84723023538e0e}{glt\+Viewport} (G\+Lsizei width, G\+Lsizei height)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a7465ea59c68b71c5ed84e81d26b68689}{glt\+Begin\+Draw} ()
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a3aef08a0d22ab36b036cea38ecb1374d}{glt\+End\+Draw} ()
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a81e1ba328743d04c93fd528ca610fb2d}{glt\+Draw\+Text} (\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text, const G\+Lfloat mvp\mbox{[}16\mbox{]})
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a66ac4fb103a5b9b2a867c018af0e0620}{glt\+Draw\+Text2D} (\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text, G\+Lfloat x, G\+Lfloat y, G\+Lfloat scale)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a4a35ca733fe7689aa6c5cace53a50ab1}{glt\+Draw\+Text2\+D\+Aligned} (\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text, G\+Lfloat x, G\+Lfloat y, G\+Lfloat scale, int horizontal\+Alignment, int vertical\+Alignment)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a1d434134fa08b487ecd4fd03721f00ed}{glt\+Draw\+Text3D} (\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text, G\+Lfloat x, G\+Lfloat y, G\+Lfloat z, G\+Lfloat scale, G\+Lfloat view\mbox{[}16\mbox{]}, G\+Lfloat projection\mbox{[}16\mbox{]})
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_a21cbe473d0363a8d03cbedb2e84b23d5}{glt\+Color} (G\+Lfloat r, G\+Lfloat g, G\+Lfloat b, G\+Lfloat a)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void \hyperlink{gltext_8h_aa8c55af4721ec79a305c124f53ec7376}{glt\+Get\+Color} (G\+Lfloat $\ast$r, G\+Lfloat $\ast$g, G\+Lfloat $\ast$b, G\+Lfloat $\ast$a)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lfloat \hyperlink{gltext_8h_accf175fe76903a13aae7694c4aec9126}{glt\+Get\+Line\+Height} (G\+Lfloat scale)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lfloat \hyperlink{gltext_8h_a4444885190ec7902bcc4c907f4df5101}{glt\+Get\+Text\+Width} (const \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text, G\+Lfloat scale)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lfloat \hyperlink{gltext_8h_a4656b2e59534f7fe9c6201c62c0251fb}{glt\+Get\+Text\+Height} (const \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$text, G\+Lfloat scale)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean \hyperlink{gltext_8h_a8566ac71c7f9747a51f44e0813c3fa9b}{glt\+Is\+Character\+Supported} (const char c)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lint \hyperlink{gltext_8h_aab184be3fc549ea6ec085645210e89a1}{glt\+Count\+Supported\+Characters} (const char $\ast$str)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean \hyperlink{gltext_8h_a748783a40b54a676fb8fd54863e97f97}{glt\+Is\+Character\+Drawable} (const char c)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lint \hyperlink{gltext_8h_aa1db03ffd286f8812e128ccbe5a6415b}{glt\+Count\+Drawable\+Characters} (const char $\ast$str)
+\item 
+\hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lint \hyperlink{gltext_8h_a6f9e91bc2e5b811e2072046b9f3267a7}{glt\+Count\+New\+Lines} (const char $\ast$str)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{gltext_8h_a67a14251d45d84381eb6cf27fc760681}\label{gltext_8h_a67a14251d45d84381eb6cf27fc760681}} 
+\index{gltext.\+h@{gltext.\+h}!\+\_\+\+G\+L\+T\+\_\+\+A\+S\+S\+E\+RT@{\+\_\+\+G\+L\+T\+\_\+\+A\+S\+S\+E\+RT}}
+\index{\+\_\+\+G\+L\+T\+\_\+\+A\+S\+S\+E\+RT@{\+\_\+\+G\+L\+T\+\_\+\+A\+S\+S\+E\+RT}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{\+\_\+\+G\+L\+T\+\_\+\+A\+S\+S\+E\+RT}{\_GLT\_ASSERT}}
+{\footnotesize\ttfamily \#define \+\_\+\+G\+L\+T\+\_\+\+A\+S\+S\+E\+RT(\begin{DoxyParamCaption}\item[{}]{expression }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_ad09179d4634e408a46e73b1da34b5117}\label{gltext_8h_ad09179d4634e408a46e73b1da34b5117}} 
+\index{gltext.\+h@{gltext.\+h}!\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY@{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}}
+\index{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY@{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}{\_GLT\_STRINGIFY}}
+{\footnotesize\ttfamily \#define \+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY(\begin{DoxyParamCaption}\item[{}]{str }\end{DoxyParamCaption})~\#str}
+
+\mbox{\Hypertarget{gltext_8h_afb5349d0435ad558a05d8ba4117c8d55}\label{gltext_8h_afb5349d0435ad558a05d8ba4117c8d55}} 
+\index{gltext.\+h@{gltext.\+h}!\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+T\+O\+K\+EN@{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+T\+O\+K\+EN}}
+\index{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+T\+O\+K\+EN@{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+T\+O\+K\+EN}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+T\+O\+K\+EN}{\_GLT\_STRINGIFY\_TOKEN}}
+{\footnotesize\ttfamily \#define \+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+T\+O\+K\+EN(\begin{DoxyParamCaption}\item[{}]{str }\end{DoxyParamCaption})~\hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(str)}
+
+\mbox{\Hypertarget{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}\label{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+A\+PI@{G\+L\+T\+\_\+\+A\+PI}}
+\index{G\+L\+T\+\_\+\+A\+PI@{G\+L\+T\+\_\+\+A\+PI}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+A\+PI}{GLT\_API}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+A\+PI~static}
+
+\mbox{\Hypertarget{gltext_8h_a404af32d69e041894cb764f94d41c160}\label{gltext_8h_a404af32d69e041894cb764f94d41c160}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+B\+O\+T\+T\+OM@{G\+L\+T\+\_\+\+B\+O\+T\+T\+OM}}
+\index{G\+L\+T\+\_\+\+B\+O\+T\+T\+OM@{G\+L\+T\+\_\+\+B\+O\+T\+T\+OM}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+B\+O\+T\+T\+OM}{GLT\_BOTTOM}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+B\+O\+T\+T\+OM~2}
+
+\mbox{\Hypertarget{gltext_8h_a9efa39ba6350a167d62659d0bc71d4f7}\label{gltext_8h_a9efa39ba6350a167d62659d0bc71d4f7}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+C\+E\+N\+T\+ER@{G\+L\+T\+\_\+\+C\+E\+N\+T\+ER}}
+\index{G\+L\+T\+\_\+\+C\+E\+N\+T\+ER@{G\+L\+T\+\_\+\+C\+E\+N\+T\+ER}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+C\+E\+N\+T\+ER}{GLT\_CENTER}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+C\+E\+N\+T\+ER~1}
+
+\mbox{\Hypertarget{gltext_8h_a0456a5221c8d216aa8cc31115a7ac739}\label{gltext_8h_a0456a5221c8d216aa8cc31115a7ac739}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+L\+E\+FT@{G\+L\+T\+\_\+\+L\+E\+FT}}
+\index{G\+L\+T\+\_\+\+L\+E\+FT@{G\+L\+T\+\_\+\+L\+E\+FT}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+L\+E\+FT}{GLT\_LEFT}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+L\+E\+FT~0}
+
+\mbox{\Hypertarget{gltext_8h_a9c7f809d1768e5f959ad7f0ddc4938c4}\label{gltext_8h_a9c7f809d1768e5f959ad7f0ddc4938c4}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+N\+A\+ME@{G\+L\+T\+\_\+\+N\+A\+ME}}
+\index{G\+L\+T\+\_\+\+N\+A\+ME@{G\+L\+T\+\_\+\+N\+A\+ME}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+N\+A\+ME}{GLT\_NAME}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+N\+A\+ME~\char`\"{}gl\+Text\char`\"{}}
+
+\mbox{\Hypertarget{gltext_8h_a4f9d36f0b9a091c6a7145b420b148274}\label{gltext_8h_a4f9d36f0b9a091c6a7145b420b148274}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+N\+A\+M\+E\+\_\+\+V\+E\+R\+S\+I\+ON@{G\+L\+T\+\_\+\+N\+A\+M\+E\+\_\+\+V\+E\+R\+S\+I\+ON}}
+\index{G\+L\+T\+\_\+\+N\+A\+M\+E\+\_\+\+V\+E\+R\+S\+I\+ON@{G\+L\+T\+\_\+\+N\+A\+M\+E\+\_\+\+V\+E\+R\+S\+I\+ON}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+N\+A\+M\+E\+\_\+\+V\+E\+R\+S\+I\+ON}{GLT\_NAME\_VERSION}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+N\+A\+M\+E\+\_\+\+V\+E\+R\+S\+I\+ON~\hyperlink{gltext_8h_a9c7f809d1768e5f959ad7f0ddc4938c4}{G\+L\+T\+\_\+\+N\+A\+ME} \char`\"{} \char`\"{} \hyperlink{gltext_8h_a426ab2585e41480e69776acad6e31dd4}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON}}
+
+\mbox{\Hypertarget{gltext_8h_a77689b1302bd5028dd47bb34ab1f41b8}\label{gltext_8h_a77689b1302bd5028dd47bb34ab1f41b8}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+N\+U\+LL@{G\+L\+T\+\_\+\+N\+U\+LL}}
+\index{G\+L\+T\+\_\+\+N\+U\+LL@{G\+L\+T\+\_\+\+N\+U\+LL}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+N\+U\+LL}{GLT\_NULL}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+N\+U\+LL~0}
+
+\mbox{\Hypertarget{gltext_8h_a8d280924462a5dbe00c2c632579e7b28}\label{gltext_8h_a8d280924462a5dbe00c2c632579e7b28}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+N\+U\+L\+L\+\_\+\+H\+A\+N\+D\+LE@{G\+L\+T\+\_\+\+N\+U\+L\+L\+\_\+\+H\+A\+N\+D\+LE}}
+\index{G\+L\+T\+\_\+\+N\+U\+L\+L\+\_\+\+H\+A\+N\+D\+LE@{G\+L\+T\+\_\+\+N\+U\+L\+L\+\_\+\+H\+A\+N\+D\+LE}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+N\+U\+L\+L\+\_\+\+H\+A\+N\+D\+LE}{GLT\_NULL\_HANDLE}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+N\+U\+L\+L\+\_\+\+H\+A\+N\+D\+LE~0}
+
+\mbox{\Hypertarget{gltext_8h_a63c4aa0ddcd72fc132ecbcb3baaae6b5}\label{gltext_8h_a63c4aa0ddcd72fc132ecbcb3baaae6b5}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+R\+I\+G\+HT@{G\+L\+T\+\_\+\+R\+I\+G\+HT}}
+\index{G\+L\+T\+\_\+\+R\+I\+G\+HT@{G\+L\+T\+\_\+\+R\+I\+G\+HT}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+R\+I\+G\+HT}{GLT\_RIGHT}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+R\+I\+G\+HT~2}
+
+\mbox{\Hypertarget{gltext_8h_a62344ecade473e517e772c1b46ac3b89}\label{gltext_8h_a62344ecade473e517e772c1b46ac3b89}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+S\+T\+A\+T\+IC@{G\+L\+T\+\_\+\+S\+T\+A\+T\+IC}}
+\index{G\+L\+T\+\_\+\+S\+T\+A\+T\+IC@{G\+L\+T\+\_\+\+S\+T\+A\+T\+IC}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+S\+T\+A\+T\+IC}{GLT\_STATIC}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+S\+T\+A\+T\+IC}
+
+\mbox{\Hypertarget{gltext_8h_a5132f3add5f8a9b8ef9896965cf85a3b}\label{gltext_8h_a5132f3add5f8a9b8ef9896965cf85a3b}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON@{G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON}}
+\index{G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON@{G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON}{GLT\_STRINGIFY\_VERSION}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON(\begin{DoxyParamCaption}\item[{}]{major,  }\item[{}]{minor,  }\item[{}]{patch }\end{DoxyParamCaption})~\hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(major) \char`\"{}.\char`\"{} \hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(minor) \char`\"{}.\char`\"{} \hyperlink{gltext_8h_ad09179d4634e408a46e73b1da34b5117}{\+\_\+\+G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+FY}(patch)}
+
+\mbox{\Hypertarget{gltext_8h_ab832eacdfcaea1db6a44cfea198f6d21}\label{gltext_8h_ab832eacdfcaea1db6a44cfea198f6d21}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+T\+OP@{G\+L\+T\+\_\+\+T\+OP}}
+\index{G\+L\+T\+\_\+\+T\+OP@{G\+L\+T\+\_\+\+T\+OP}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+T\+OP}{GLT\_TOP}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+T\+OP~0}
+
+\mbox{\Hypertarget{gltext_8h_a426ab2585e41480e69776acad6e31dd4}\label{gltext_8h_a426ab2585e41480e69776acad6e31dd4}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON}}
+\index{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON}{GLT\_VERSION}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+ON~\hyperlink{gltext_8h_a5132f3add5f8a9b8ef9896965cf85a3b}{G\+L\+T\+\_\+\+S\+T\+R\+I\+N\+G\+I\+F\+Y\+\_\+\+V\+E\+R\+S\+I\+ON}(\hyperlink{gltext_8h_a5dca984536ac85ebd293445dccfef467}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR}, \hyperlink{gltext_8h_a55184d8a7dbeb1c821f42b5d6d72b6ba}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR}, \hyperlink{gltext_8h_a330c7a3a1fb7be6f127b7c1df66dc979}{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH})}
+
+\mbox{\Hypertarget{gltext_8h_a5dca984536ac85ebd293445dccfef467}\label{gltext_8h_a5dca984536ac85ebd293445dccfef467}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR}}
+\index{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR}{GLT\_VERSION\_MAJOR}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR~1}
+
+\mbox{\Hypertarget{gltext_8h_a55184d8a7dbeb1c821f42b5d6d72b6ba}\label{gltext_8h_a55184d8a7dbeb1c821f42b5d6d72b6ba}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR}}
+\index{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR}{GLT\_VERSION\_MINOR}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR~1}
+
+\mbox{\Hypertarget{gltext_8h_a330c7a3a1fb7be6f127b7c1df66dc979}\label{gltext_8h_a330c7a3a1fb7be6f127b7c1df66dc979}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH}}
+\index{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH@{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH}{GLT\_VERSION\_PATCH}}
+{\footnotesize\ttfamily \#define G\+L\+T\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+CH~6}
+
+\mbox{\Hypertarget{gltext_8h_a938325ed922121f283d75e0d3f43acc3}\label{gltext_8h_a938325ed922121f283d75e0d3f43acc3}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Destroy\+Text@{glt\+Destroy\+Text}}
+\index{glt\+Destroy\+Text@{glt\+Destroy\+Text}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Destroy\+Text}{gltDestroyText}}
+{\footnotesize\ttfamily \#define glt\+Destroy\+Text~\hyperlink{gltext_8h_a8626225912d662c581221f7d46110a15}{glt\+Delete\+Text}}
+
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{gltext_8h_aae97afe304980a29181f84add05e36df}\label{gltext_8h_aae97afe304980a29181f84add05e36df}} 
+\index{gltext.\+h@{gltext.\+h}!G\+L\+Ttext@{G\+L\+Ttext}}
+\index{G\+L\+Ttext@{G\+L\+Ttext}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{G\+L\+Ttext}{GLTtext}}
+{\footnotesize\ttfamily typedef struct \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext}}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{gltext_8h_a7465ea59c68b71c5ed84e81d26b68689}\label{gltext_8h_a7465ea59c68b71c5ed84e81d26b68689}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Begin\+Draw@{glt\+Begin\+Draw}}
+\index{glt\+Begin\+Draw@{glt\+Begin\+Draw}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Begin\+Draw()}{gltBeginDraw()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Begin\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a21cbe473d0363a8d03cbedb2e84b23d5}\label{gltext_8h_a21cbe473d0363a8d03cbedb2e84b23d5}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Color@{glt\+Color}}
+\index{glt\+Color@{glt\+Color}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Color()}{gltColor()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Color (\begin{DoxyParamCaption}\item[{G\+Lfloat}]{r,  }\item[{G\+Lfloat}]{g,  }\item[{G\+Lfloat}]{b,  }\item[{G\+Lfloat}]{a }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_aa1db03ffd286f8812e128ccbe5a6415b}\label{gltext_8h_aa1db03ffd286f8812e128ccbe5a6415b}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Count\+Drawable\+Characters@{glt\+Count\+Drawable\+Characters}}
+\index{glt\+Count\+Drawable\+Characters@{glt\+Count\+Drawable\+Characters}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Count\+Drawable\+Characters()}{gltCountDrawableCharacters()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lint glt\+Count\+Drawable\+Characters (\begin{DoxyParamCaption}\item[{const char $\ast$}]{str }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a6f9e91bc2e5b811e2072046b9f3267a7}\label{gltext_8h_a6f9e91bc2e5b811e2072046b9f3267a7}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Count\+New\+Lines@{glt\+Count\+New\+Lines}}
+\index{glt\+Count\+New\+Lines@{glt\+Count\+New\+Lines}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Count\+New\+Lines()}{gltCountNewLines()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lint glt\+Count\+New\+Lines (\begin{DoxyParamCaption}\item[{const char $\ast$}]{str }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_aab184be3fc549ea6ec085645210e89a1}\label{gltext_8h_aab184be3fc549ea6ec085645210e89a1}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Count\+Supported\+Characters@{glt\+Count\+Supported\+Characters}}
+\index{glt\+Count\+Supported\+Characters@{glt\+Count\+Supported\+Characters}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Count\+Supported\+Characters()}{gltCountSupportedCharacters()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lint glt\+Count\+Supported\+Characters (\begin{DoxyParamCaption}\item[{const char $\ast$}]{str }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_ac708534d2279befecca6489532a6f0a7}\label{gltext_8h_ac708534d2279befecca6489532a6f0a7}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Create\+Text@{glt\+Create\+Text}}
+\index{glt\+Create\+Text@{glt\+Create\+Text}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Create\+Text()}{gltCreateText()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext}$\ast$ glt\+Create\+Text (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a8626225912d662c581221f7d46110a15}\label{gltext_8h_a8626225912d662c581221f7d46110a15}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Delete\+Text@{glt\+Delete\+Text}}
+\index{glt\+Delete\+Text@{glt\+Delete\+Text}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Delete\+Text()}{gltDeleteText()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Delete\+Text (\begin{DoxyParamCaption}\item[{\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a81e1ba328743d04c93fd528ca610fb2d}\label{gltext_8h_a81e1ba328743d04c93fd528ca610fb2d}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Draw\+Text@{glt\+Draw\+Text}}
+\index{glt\+Draw\+Text@{glt\+Draw\+Text}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Draw\+Text()}{gltDrawText()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Draw\+Text (\begin{DoxyParamCaption}\item[{\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text,  }\item[{const G\+Lfloat}]{mvp\mbox{[}16\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a66ac4fb103a5b9b2a867c018af0e0620}\label{gltext_8h_a66ac4fb103a5b9b2a867c018af0e0620}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Draw\+Text2D@{glt\+Draw\+Text2D}}
+\index{glt\+Draw\+Text2D@{glt\+Draw\+Text2D}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Draw\+Text2\+D()}{gltDrawText2D()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Draw\+Text2D (\begin{DoxyParamCaption}\item[{\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text,  }\item[{G\+Lfloat}]{x,  }\item[{G\+Lfloat}]{y,  }\item[{G\+Lfloat}]{scale }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a4a35ca733fe7689aa6c5cace53a50ab1}\label{gltext_8h_a4a35ca733fe7689aa6c5cace53a50ab1}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Draw\+Text2\+D\+Aligned@{glt\+Draw\+Text2\+D\+Aligned}}
+\index{glt\+Draw\+Text2\+D\+Aligned@{glt\+Draw\+Text2\+D\+Aligned}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Draw\+Text2\+D\+Aligned()}{gltDrawText2DAligned()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Draw\+Text2\+D\+Aligned (\begin{DoxyParamCaption}\item[{\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text,  }\item[{G\+Lfloat}]{x,  }\item[{G\+Lfloat}]{y,  }\item[{G\+Lfloat}]{scale,  }\item[{int}]{horizontal\+Alignment,  }\item[{int}]{vertical\+Alignment }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a1d434134fa08b487ecd4fd03721f00ed}\label{gltext_8h_a1d434134fa08b487ecd4fd03721f00ed}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Draw\+Text3D@{glt\+Draw\+Text3D}}
+\index{glt\+Draw\+Text3D@{glt\+Draw\+Text3D}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Draw\+Text3\+D()}{gltDrawText3D()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Draw\+Text3D (\begin{DoxyParamCaption}\item[{\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text,  }\item[{G\+Lfloat}]{x,  }\item[{G\+Lfloat}]{y,  }\item[{G\+Lfloat}]{z,  }\item[{G\+Lfloat}]{scale,  }\item[{G\+Lfloat}]{view\mbox{[}16\mbox{]},  }\item[{G\+Lfloat}]{projection\mbox{[}16\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a3aef08a0d22ab36b036cea38ecb1374d}\label{gltext_8h_a3aef08a0d22ab36b036cea38ecb1374d}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+End\+Draw@{glt\+End\+Draw}}
+\index{glt\+End\+Draw@{glt\+End\+Draw}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+End\+Draw()}{gltEndDraw()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+End\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_aa8c55af4721ec79a305c124f53ec7376}\label{gltext_8h_aa8c55af4721ec79a305c124f53ec7376}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Get\+Color@{glt\+Get\+Color}}
+\index{glt\+Get\+Color@{glt\+Get\+Color}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Get\+Color()}{gltGetColor()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Get\+Color (\begin{DoxyParamCaption}\item[{G\+Lfloat $\ast$}]{r,  }\item[{G\+Lfloat $\ast$}]{g,  }\item[{G\+Lfloat $\ast$}]{b,  }\item[{G\+Lfloat $\ast$}]{a }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_accf175fe76903a13aae7694c4aec9126}\label{gltext_8h_accf175fe76903a13aae7694c4aec9126}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Get\+Line\+Height@{glt\+Get\+Line\+Height}}
+\index{glt\+Get\+Line\+Height@{glt\+Get\+Line\+Height}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Get\+Line\+Height()}{gltGetLineHeight()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lfloat glt\+Get\+Line\+Height (\begin{DoxyParamCaption}\item[{G\+Lfloat}]{scale }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a4b7427eff36dece0d627b2f665b3c323}\label{gltext_8h_a4b7427eff36dece0d627b2f665b3c323}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Get\+Text@{glt\+Get\+Text}}
+\index{glt\+Get\+Text@{glt\+Get\+Text}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Get\+Text()}{gltGetText()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} const char$\ast$ glt\+Get\+Text (\begin{DoxyParamCaption}\item[{\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a4656b2e59534f7fe9c6201c62c0251fb}\label{gltext_8h_a4656b2e59534f7fe9c6201c62c0251fb}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Get\+Text\+Height@{glt\+Get\+Text\+Height}}
+\index{glt\+Get\+Text\+Height@{glt\+Get\+Text\+Height}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Get\+Text\+Height()}{gltGetTextHeight()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lfloat glt\+Get\+Text\+Height (\begin{DoxyParamCaption}\item[{const \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text,  }\item[{G\+Lfloat}]{scale }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a4444885190ec7902bcc4c907f4df5101}\label{gltext_8h_a4444885190ec7902bcc4c907f4df5101}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Get\+Text\+Width@{glt\+Get\+Text\+Width}}
+\index{glt\+Get\+Text\+Width@{glt\+Get\+Text\+Width}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Get\+Text\+Width()}{gltGetTextWidth()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lfloat glt\+Get\+Text\+Width (\begin{DoxyParamCaption}\item[{const \hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text,  }\item[{G\+Lfloat}]{scale }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_ac1baf6ada3acda741cd0966f72964450}\label{gltext_8h_ac1baf6ada3acda741cd0966f72964450}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Init@{glt\+Init}}
+\index{glt\+Init@{glt\+Init}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Init()}{gltInit()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean glt\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a748783a40b54a676fb8fd54863e97f97}\label{gltext_8h_a748783a40b54a676fb8fd54863e97f97}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Is\+Character\+Drawable@{glt\+Is\+Character\+Drawable}}
+\index{glt\+Is\+Character\+Drawable@{glt\+Is\+Character\+Drawable}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Is\+Character\+Drawable()}{gltIsCharacterDrawable()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean glt\+Is\+Character\+Drawable (\begin{DoxyParamCaption}\item[{const char}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a8566ac71c7f9747a51f44e0813c3fa9b}\label{gltext_8h_a8566ac71c7f9747a51f44e0813c3fa9b}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Is\+Character\+Supported@{glt\+Is\+Character\+Supported}}
+\index{glt\+Is\+Character\+Supported@{glt\+Is\+Character\+Supported}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Is\+Character\+Supported()}{gltIsCharacterSupported()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean glt\+Is\+Character\+Supported (\begin{DoxyParamCaption}\item[{const char}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a73c48f6c4067b0f3dbcbbaaaacc87129}\label{gltext_8h_a73c48f6c4067b0f3dbcbbaaaacc87129}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Set\+Text@{glt\+Set\+Text}}
+\index{glt\+Set\+Text@{glt\+Set\+Text}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Set\+Text()}{gltSetText()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} G\+Lboolean glt\+Set\+Text (\begin{DoxyParamCaption}\item[{\hyperlink{gltext_8h_aae97afe304980a29181f84add05e36df}{G\+L\+Ttext} $\ast$}]{text,  }\item[{const char $\ast$}]{string }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a693e5433513ea66e1818c65ba9ee1591}\label{gltext_8h_a693e5433513ea66e1818c65ba9ee1591}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Terminate@{glt\+Terminate}}
+\index{glt\+Terminate@{glt\+Terminate}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Terminate()}{gltTerminate()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Terminate (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{gltext_8h_a970434fcd543d6c4bc84723023538e0e}\label{gltext_8h_a970434fcd543d6c4bc84723023538e0e}} 
+\index{gltext.\+h@{gltext.\+h}!glt\+Viewport@{glt\+Viewport}}
+\index{glt\+Viewport@{glt\+Viewport}!gltext.\+h@{gltext.\+h}}
+\subsubsection{\texorpdfstring{glt\+Viewport()}{gltViewport()}}
+{\footnotesize\ttfamily \hyperlink{gltext_8h_afea20efe2ca25c8fb29ea99870e194c1}{G\+L\+T\+\_\+\+A\+PI} void glt\+Viewport (\begin{DoxyParamCaption}\item[{G\+Lsizei}]{width,  }\item[{G\+Lsizei}]{height }\end{DoxyParamCaption})}
+

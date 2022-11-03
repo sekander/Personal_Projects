@@ -1,0 +1,272 @@
+\hypertarget{classSekander_1_1Gun}{}\section{Sekander\+:\+:Gun Class Reference}
+\label{classSekander_1_1Gun}\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+
+
+{\ttfamily \#include $<$Gun.\+hpp$>$}
+
+
+
+Inheritance diagram for Sekander\+:\+:Gun\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classSekander_1_1Gun__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sekander\+:\+:Gun\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classSekander_1_1Gun__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSekander_1_1Gun_a576c17046ba8d7bfca10333695668302}{Gun} ()
+\item 
+\hyperlink{classSekander_1_1Gun_a0027f58d8ff9eb4b97bd48c5af3aa3f0}{Gun} (\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} data, std\+::string key, std\+::string file\+\_\+name, int source\+\_\+x, int source\+\_\+y, int sprite\+\_\+\+W\+I\+D\+TH, int sprite\+\_\+\+H\+E\+I\+G\+HT, bool dynamic, int sprite\+\_\+\+X\+\_\+\+F\+R\+A\+M\+ES, int sprite\+\_\+\+Y\+\_\+\+F\+R\+A\+M\+ES, float sprite\+\_\+\+X\+\_\+\+P\+OS, float sprite\+\_\+\+Y\+\_\+\+P\+OS, float sprite\+\_\+\+A\+N\+G\+LE)
+\item 
+void \hyperlink{classSekander_1_1Gun_aced0361bd919bc1221e55d06e8293a88}{Set\+Origin} (float x, float y)
+\item 
+void \hyperlink{classSekander_1_1Gun_a748d795cb18ae0fe6ecc6cb4f5841273}{Shoot\+\_\+\+Gun} (\hyperlink{classSekander_1_1Bullet}{Bullet} $\ast$bw, bool right, bool left, bool up, bool down)
+\item 
+void \hyperlink{classSekander_1_1Gun_a82e57bc14df7f3a92721c79a761435f6}{Shoot\+\_\+\+Gun} (\hyperlink{classSekander_1_1Bullet}{Bullet} $\ast$bw, bool right, bool left, bool up, bool down, float x, float y)
+\item 
+void \hyperlink{classSekander_1_1Gun_aad6f4af76435694e0115bb1d702707bd}{Shoot\+\_\+\+Gun} (\hyperlink{classSekander_1_1Bullet}{Bullet} $\ast$bw, bool left)
+\item 
+void \hyperlink{classSekander_1_1Gun_a3410d2e3352ec9cb6deb21deda8ff160}{Shoot\+\_\+\+Entities} (\hyperlink{classSekander_1_1Entity}{Entity} $\ast$, bool left, bool right)
+\item 
+float \hyperlink{classSekander_1_1Gun_afe5f1919f2c56d662b7229dc1fe80d03}{Get\+\_\+\+X\+\_\+\+P\+OS} ()
+\item 
+float \hyperlink{classSekander_1_1Gun_a30d3329bf0e9ad440e999395d8a928ef}{Get\+\_\+\+Y\+\_\+\+P\+OS} ()
+\item 
+void \hyperlink{classSekander_1_1Gun_aa6f3101db896d88eb05d0c334b59507d}{Set\+\_\+\+X\+\_\+\+P\+OS} (float x)
+\item 
+void \hyperlink{classSekander_1_1Gun_a5bb1f6897ec05506c0076e4b39e6ebed}{Set\+\_\+\+Y\+\_\+\+P\+OS} (float y)
+\item 
+void \hyperlink{classSekander_1_1Gun_aabbbbdf814ee725561dd603f0d406c22}{Set\+\_\+\+Trigger} (bool press)
+\item 
+void \hyperlink{classSekander_1_1Gun_ac508687c44a274755e4925abec758770}{Set\+\_\+\+Gun\+\_\+\+Direction} (bool yes)
+\item 
+void \hyperlink{classSekander_1_1Gun_a83f0098d0ed7748787af13f108ed5d90}{Set\+\_\+\+Gun\+\_\+\+U\+P\+\_\+\+Direction} (bool yes)
+\item 
+void \hyperlink{classSekander_1_1Gun_a20b0be2d3c18d28141b7480c933cd370}{Set\+\_\+\+Gun\+\_\+\+D\+O\+W\+N\+\_\+\+Direction} (bool yes)
+\item 
+std\+::string \hyperlink{classSekander_1_1Gun_a7d2a8fefec4e64f6c56359738d7ec7c5}{Get\+\_\+key} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} \hyperlink{classSekander_1_1Gun_a95137d634392845be958b7ce8bdfa1df}{\+\_\+data}
+\item 
+std\+::string \hyperlink{classSekander_1_1Gun_a810e56bc82557e745baba8ae9179fe5e}{m\+\_\+key}
+\item 
+float \hyperlink{classSekander_1_1Gun_a99a1490de874927b69abc0949954a7f5}{m\+\_\+sprite\+\_\+\+X\+\_\+\+P\+OS}
+\item 
+float \hyperlink{classSekander_1_1Gun_a792041894089eece8cdaf689260c90f1}{m\+\_\+sprite\+\_\+\+Y\+\_\+\+P\+OS}
+\item 
+bool \hyperlink{classSekander_1_1Gun_a6e3c2771562a84475c4d596b20388ffa}{m\+\_\+trigger\+\_\+press}
+\item 
+bool \hyperlink{classSekander_1_1Gun_a4f70959df2c1742c569d041a40bbc182}{m\+\_\+gun\+\_\+direction\+\_\+rightwards}
+\item 
+bool \hyperlink{classSekander_1_1Gun_ab8f736dba3a7a589a3f11866e190f46e}{m\+\_\+gun\+\_\+direction\+\_\+backwards}
+\item 
+bool \hyperlink{classSekander_1_1Gun_ac91796b5d957ca80618c363e191d5e04}{m\+\_\+gun\+\_\+direction\+\_\+upwards}
+\item 
+bool \hyperlink{classSekander_1_1Gun_ae45d67071fd9e59cf8d94723fb6cccc2}{m\+\_\+gun\+\_\+direction\+\_\+downwards}
+\item 
+int \hyperlink{classSekander_1_1Gun_a58b9c611d278ddc0b3b1b0588a405bb1}{delay} = 0
+\item 
+int \hyperlink{classSekander_1_1Gun_a97504b1f4030588c0bca071134d3d891}{bullet\+\_\+counter} = 0
+\item 
+bool \hyperlink{classSekander_1_1Gun_aed128870319529784cca7bc1d11090d2}{dead\+\_\+gun}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSekander_1_1Gun_a576c17046ba8d7bfca10333695668302}\label{classSekander_1_1Gun_a576c17046ba8d7bfca10333695668302}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Gun@{Gun}}
+\index{Gun@{Gun}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Gun()}{Gun()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Sekander\+::\+Gun\+::\+Gun (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a0027f58d8ff9eb4b97bd48c5af3aa3f0}\label{classSekander_1_1Gun_a0027f58d8ff9eb4b97bd48c5af3aa3f0}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Gun@{Gun}}
+\index{Gun@{Gun}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Gun()}{Gun()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Sekander\+::\+Gun\+::\+Gun (\begin{DoxyParamCaption}\item[{\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref}}]{data,  }\item[{std\+::string}]{key,  }\item[{std\+::string}]{file\+\_\+name,  }\item[{int}]{source\+\_\+x,  }\item[{int}]{source\+\_\+y,  }\item[{int}]{sprite\+\_\+\+W\+I\+D\+TH,  }\item[{int}]{sprite\+\_\+\+H\+E\+I\+G\+HT,  }\item[{bool}]{dynamic,  }\item[{int}]{sprite\+\_\+\+X\+\_\+\+F\+R\+A\+M\+ES,  }\item[{int}]{sprite\+\_\+\+Y\+\_\+\+F\+R\+A\+M\+ES,  }\item[{float}]{sprite\+\_\+\+X\+\_\+\+P\+OS,  }\item[{float}]{sprite\+\_\+\+Y\+\_\+\+P\+OS,  }\item[{float}]{sprite\+\_\+\+A\+N\+G\+LE }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSekander_1_1Gun_a7d2a8fefec4e64f6c56359738d7ec7c5}\label{classSekander_1_1Gun_a7d2a8fefec4e64f6c56359738d7ec7c5}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Get\+\_\+key@{Get\+\_\+key}}
+\index{Get\+\_\+key@{Get\+\_\+key}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Get\+\_\+key()}{Get\_key()}}
+{\footnotesize\ttfamily std\+::string Sekander\+::\+Gun\+::\+Get\+\_\+key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_afe5f1919f2c56d662b7229dc1fe80d03}\label{classSekander_1_1Gun_afe5f1919f2c56d662b7229dc1fe80d03}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Get\+\_\+\+X\+\_\+\+P\+OS@{Get\+\_\+\+X\+\_\+\+P\+OS}}
+\index{Get\+\_\+\+X\+\_\+\+P\+OS@{Get\+\_\+\+X\+\_\+\+P\+OS}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Get\+\_\+\+X\+\_\+\+P\+O\+S()}{Get\_X\_POS()}}
+{\footnotesize\ttfamily float Sekander\+::\+Gun\+::\+Get\+\_\+\+X\+\_\+\+P\+OS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a30d3329bf0e9ad440e999395d8a928ef}\label{classSekander_1_1Gun_a30d3329bf0e9ad440e999395d8a928ef}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Get\+\_\+\+Y\+\_\+\+P\+OS@{Get\+\_\+\+Y\+\_\+\+P\+OS}}
+\index{Get\+\_\+\+Y\+\_\+\+P\+OS@{Get\+\_\+\+Y\+\_\+\+P\+OS}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Get\+\_\+\+Y\+\_\+\+P\+O\+S()}{Get\_Y\_POS()}}
+{\footnotesize\ttfamily float Sekander\+::\+Gun\+::\+Get\+\_\+\+Y\+\_\+\+P\+OS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_ac508687c44a274755e4925abec758770}\label{classSekander_1_1Gun_ac508687c44a274755e4925abec758770}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Set\+\_\+\+Gun\+\_\+\+Direction@{Set\+\_\+\+Gun\+\_\+\+Direction}}
+\index{Set\+\_\+\+Gun\+\_\+\+Direction@{Set\+\_\+\+Gun\+\_\+\+Direction}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Set\+\_\+\+Gun\+\_\+\+Direction()}{Set\_Gun\_Direction()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Set\+\_\+\+Gun\+\_\+\+Direction (\begin{DoxyParamCaption}\item[{bool}]{yes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a20b0be2d3c18d28141b7480c933cd370}\label{classSekander_1_1Gun_a20b0be2d3c18d28141b7480c933cd370}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Set\+\_\+\+Gun\+\_\+\+D\+O\+W\+N\+\_\+\+Direction@{Set\+\_\+\+Gun\+\_\+\+D\+O\+W\+N\+\_\+\+Direction}}
+\index{Set\+\_\+\+Gun\+\_\+\+D\+O\+W\+N\+\_\+\+Direction@{Set\+\_\+\+Gun\+\_\+\+D\+O\+W\+N\+\_\+\+Direction}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Set\+\_\+\+Gun\+\_\+\+D\+O\+W\+N\+\_\+\+Direction()}{Set\_Gun\_DOWN\_Direction()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Set\+\_\+\+Gun\+\_\+\+D\+O\+W\+N\+\_\+\+Direction (\begin{DoxyParamCaption}\item[{bool}]{yes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a83f0098d0ed7748787af13f108ed5d90}\label{classSekander_1_1Gun_a83f0098d0ed7748787af13f108ed5d90}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Set\+\_\+\+Gun\+\_\+\+U\+P\+\_\+\+Direction@{Set\+\_\+\+Gun\+\_\+\+U\+P\+\_\+\+Direction}}
+\index{Set\+\_\+\+Gun\+\_\+\+U\+P\+\_\+\+Direction@{Set\+\_\+\+Gun\+\_\+\+U\+P\+\_\+\+Direction}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Set\+\_\+\+Gun\+\_\+\+U\+P\+\_\+\+Direction()}{Set\_Gun\_UP\_Direction()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Set\+\_\+\+Gun\+\_\+\+U\+P\+\_\+\+Direction (\begin{DoxyParamCaption}\item[{bool}]{yes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_aabbbbdf814ee725561dd603f0d406c22}\label{classSekander_1_1Gun_aabbbbdf814ee725561dd603f0d406c22}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Set\+\_\+\+Trigger@{Set\+\_\+\+Trigger}}
+\index{Set\+\_\+\+Trigger@{Set\+\_\+\+Trigger}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Set\+\_\+\+Trigger()}{Set\_Trigger()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Set\+\_\+\+Trigger (\begin{DoxyParamCaption}\item[{bool}]{press }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_aa6f3101db896d88eb05d0c334b59507d}\label{classSekander_1_1Gun_aa6f3101db896d88eb05d0c334b59507d}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Set\+\_\+\+X\+\_\+\+P\+OS@{Set\+\_\+\+X\+\_\+\+P\+OS}}
+\index{Set\+\_\+\+X\+\_\+\+P\+OS@{Set\+\_\+\+X\+\_\+\+P\+OS}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Set\+\_\+\+X\+\_\+\+P\+O\+S()}{Set\_X\_POS()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Set\+\_\+\+X\+\_\+\+P\+OS (\begin{DoxyParamCaption}\item[{float}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a5bb1f6897ec05506c0076e4b39e6ebed}\label{classSekander_1_1Gun_a5bb1f6897ec05506c0076e4b39e6ebed}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Set\+\_\+\+Y\+\_\+\+P\+OS@{Set\+\_\+\+Y\+\_\+\+P\+OS}}
+\index{Set\+\_\+\+Y\+\_\+\+P\+OS@{Set\+\_\+\+Y\+\_\+\+P\+OS}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Set\+\_\+\+Y\+\_\+\+P\+O\+S()}{Set\_Y\_POS()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Set\+\_\+\+Y\+\_\+\+P\+OS (\begin{DoxyParamCaption}\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_aced0361bd919bc1221e55d06e8293a88}\label{classSekander_1_1Gun_aced0361bd919bc1221e55d06e8293a88}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Set\+Origin@{Set\+Origin}}
+\index{Set\+Origin@{Set\+Origin}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Set\+Origin()}{SetOrigin()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Set\+Origin (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a3410d2e3352ec9cb6deb21deda8ff160}\label{classSekander_1_1Gun_a3410d2e3352ec9cb6deb21deda8ff160}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Shoot\+\_\+\+Entities@{Shoot\+\_\+\+Entities}}
+\index{Shoot\+\_\+\+Entities@{Shoot\+\_\+\+Entities}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Shoot\+\_\+\+Entities()}{Shoot\_Entities()}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Shoot\+\_\+\+Entities (\begin{DoxyParamCaption}\item[{\hyperlink{classSekander_1_1Entity}{Entity} $\ast$}]{ew,  }\item[{bool}]{left,  }\item[{bool}]{right }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a748d795cb18ae0fe6ecc6cb4f5841273}\label{classSekander_1_1Gun_a748d795cb18ae0fe6ecc6cb4f5841273}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Shoot\+\_\+\+Gun@{Shoot\+\_\+\+Gun}}
+\index{Shoot\+\_\+\+Gun@{Shoot\+\_\+\+Gun}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Shoot\+\_\+\+Gun()}{Shoot\_Gun()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Shoot\+\_\+\+Gun (\begin{DoxyParamCaption}\item[{\hyperlink{classSekander_1_1Bullet}{Bullet} $\ast$}]{bw,  }\item[{bool}]{right,  }\item[{bool}]{left,  }\item[{bool}]{up,  }\item[{bool}]{down }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a82e57bc14df7f3a92721c79a761435f6}\label{classSekander_1_1Gun_a82e57bc14df7f3a92721c79a761435f6}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Shoot\+\_\+\+Gun@{Shoot\+\_\+\+Gun}}
+\index{Shoot\+\_\+\+Gun@{Shoot\+\_\+\+Gun}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Shoot\+\_\+\+Gun()}{Shoot\_Gun()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Shoot\+\_\+\+Gun (\begin{DoxyParamCaption}\item[{\hyperlink{classSekander_1_1Bullet}{Bullet} $\ast$}]{bw,  }\item[{bool}]{right,  }\item[{bool}]{left,  }\item[{bool}]{up,  }\item[{bool}]{down,  }\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_aad6f4af76435694e0115bb1d702707bd}\label{classSekander_1_1Gun_aad6f4af76435694e0115bb1d702707bd}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!Shoot\+\_\+\+Gun@{Shoot\+\_\+\+Gun}}
+\index{Shoot\+\_\+\+Gun@{Shoot\+\_\+\+Gun}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{Shoot\+\_\+\+Gun()}{Shoot\_Gun()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void Sekander\+::\+Gun\+::\+Shoot\+\_\+\+Gun (\begin{DoxyParamCaption}\item[{\hyperlink{classSekander_1_1Bullet}{Bullet} $\ast$}]{bw,  }\item[{bool}]{left }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSekander_1_1Gun_a95137d634392845be958b7ce8bdfa1df}\label{classSekander_1_1Gun_a95137d634392845be958b7ce8bdfa1df}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!\+\_\+data@{\+\_\+data}}
+\index{\+\_\+data@{\+\_\+data}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{\+\_\+data}{\_data}}
+{\footnotesize\ttfamily \hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} Sekander\+::\+Gun\+::\+\_\+data\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a97504b1f4030588c0bca071134d3d891}\label{classSekander_1_1Gun_a97504b1f4030588c0bca071134d3d891}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!bullet\+\_\+counter@{bullet\+\_\+counter}}
+\index{bullet\+\_\+counter@{bullet\+\_\+counter}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{bullet\+\_\+counter}{bullet\_counter}}
+{\footnotesize\ttfamily int Sekander\+::\+Gun\+::bullet\+\_\+counter = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_aed128870319529784cca7bc1d11090d2}\label{classSekander_1_1Gun_aed128870319529784cca7bc1d11090d2}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!dead\+\_\+gun@{dead\+\_\+gun}}
+\index{dead\+\_\+gun@{dead\+\_\+gun}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{dead\+\_\+gun}{dead\_gun}}
+{\footnotesize\ttfamily bool Sekander\+::\+Gun\+::dead\+\_\+gun\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a58b9c611d278ddc0b3b1b0588a405bb1}\label{classSekander_1_1Gun_a58b9c611d278ddc0b3b1b0588a405bb1}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!delay@{delay}}
+\index{delay@{delay}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{delay}{delay}}
+{\footnotesize\ttfamily int Sekander\+::\+Gun\+::delay = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_ab8f736dba3a7a589a3f11866e190f46e}\label{classSekander_1_1Gun_ab8f736dba3a7a589a3f11866e190f46e}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+gun\+\_\+direction\+\_\+backwards@{m\+\_\+gun\+\_\+direction\+\_\+backwards}}
+\index{m\+\_\+gun\+\_\+direction\+\_\+backwards@{m\+\_\+gun\+\_\+direction\+\_\+backwards}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+gun\+\_\+direction\+\_\+backwards}{m\_gun\_direction\_backwards}}
+{\footnotesize\ttfamily bool Sekander\+::\+Gun\+::m\+\_\+gun\+\_\+direction\+\_\+backwards\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_ae45d67071fd9e59cf8d94723fb6cccc2}\label{classSekander_1_1Gun_ae45d67071fd9e59cf8d94723fb6cccc2}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+gun\+\_\+direction\+\_\+downwards@{m\+\_\+gun\+\_\+direction\+\_\+downwards}}
+\index{m\+\_\+gun\+\_\+direction\+\_\+downwards@{m\+\_\+gun\+\_\+direction\+\_\+downwards}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+gun\+\_\+direction\+\_\+downwards}{m\_gun\_direction\_downwards}}
+{\footnotesize\ttfamily bool Sekander\+::\+Gun\+::m\+\_\+gun\+\_\+direction\+\_\+downwards\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a4f70959df2c1742c569d041a40bbc182}\label{classSekander_1_1Gun_a4f70959df2c1742c569d041a40bbc182}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+gun\+\_\+direction\+\_\+rightwards@{m\+\_\+gun\+\_\+direction\+\_\+rightwards}}
+\index{m\+\_\+gun\+\_\+direction\+\_\+rightwards@{m\+\_\+gun\+\_\+direction\+\_\+rightwards}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+gun\+\_\+direction\+\_\+rightwards}{m\_gun\_direction\_rightwards}}
+{\footnotesize\ttfamily bool Sekander\+::\+Gun\+::m\+\_\+gun\+\_\+direction\+\_\+rightwards\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_ac91796b5d957ca80618c363e191d5e04}\label{classSekander_1_1Gun_ac91796b5d957ca80618c363e191d5e04}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+gun\+\_\+direction\+\_\+upwards@{m\+\_\+gun\+\_\+direction\+\_\+upwards}}
+\index{m\+\_\+gun\+\_\+direction\+\_\+upwards@{m\+\_\+gun\+\_\+direction\+\_\+upwards}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+gun\+\_\+direction\+\_\+upwards}{m\_gun\_direction\_upwards}}
+{\footnotesize\ttfamily bool Sekander\+::\+Gun\+::m\+\_\+gun\+\_\+direction\+\_\+upwards\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a810e56bc82557e745baba8ae9179fe5e}\label{classSekander_1_1Gun_a810e56bc82557e745baba8ae9179fe5e}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+key@{m\+\_\+key}}
+\index{m\+\_\+key@{m\+\_\+key}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+key}{m\_key}}
+{\footnotesize\ttfamily std\+::string Sekander\+::\+Gun\+::m\+\_\+key\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a99a1490de874927b69abc0949954a7f5}\label{classSekander_1_1Gun_a99a1490de874927b69abc0949954a7f5}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+sprite\+\_\+\+X\+\_\+\+P\+OS@{m\+\_\+sprite\+\_\+\+X\+\_\+\+P\+OS}}
+\index{m\+\_\+sprite\+\_\+\+X\+\_\+\+P\+OS@{m\+\_\+sprite\+\_\+\+X\+\_\+\+P\+OS}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+sprite\+\_\+\+X\+\_\+\+P\+OS}{m\_sprite\_X\_POS}}
+{\footnotesize\ttfamily float Sekander\+::\+Gun\+::m\+\_\+sprite\+\_\+\+X\+\_\+\+P\+OS\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a792041894089eece8cdaf689260c90f1}\label{classSekander_1_1Gun_a792041894089eece8cdaf689260c90f1}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+sprite\+\_\+\+Y\+\_\+\+P\+OS@{m\+\_\+sprite\+\_\+\+Y\+\_\+\+P\+OS}}
+\index{m\+\_\+sprite\+\_\+\+Y\+\_\+\+P\+OS@{m\+\_\+sprite\+\_\+\+Y\+\_\+\+P\+OS}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+sprite\+\_\+\+Y\+\_\+\+P\+OS}{m\_sprite\_Y\_POS}}
+{\footnotesize\ttfamily float Sekander\+::\+Gun\+::m\+\_\+sprite\+\_\+\+Y\+\_\+\+P\+OS\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Gun_a6e3c2771562a84475c4d596b20388ffa}\label{classSekander_1_1Gun_a6e3c2771562a84475c4d596b20388ffa}} 
+\index{Sekander\+::\+Gun@{Sekander\+::\+Gun}!m\+\_\+trigger\+\_\+press@{m\+\_\+trigger\+\_\+press}}
+\index{m\+\_\+trigger\+\_\+press@{m\+\_\+trigger\+\_\+press}!Sekander\+::\+Gun@{Sekander\+::\+Gun}}
+\subsubsection{\texorpdfstring{m\+\_\+trigger\+\_\+press}{m\_trigger\_press}}
+{\footnotesize\ttfamily bool Sekander\+::\+Gun\+::m\+\_\+trigger\+\_\+press\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/include/\hyperlink{Gun_8hpp}{Gun.\+hpp}\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/src/\hyperlink{Gun_8cpp}{Gun.\+cpp}\end{DoxyCompactItemize}

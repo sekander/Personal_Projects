@@ -1,0 +1,128 @@
+\hypertarget{classSekander_1_1Game}{}\section{Sekander\+:\+:Game Class Reference}
+\label{classSekander_1_1Game}\index{Sekander\+::\+Game@{Sekander\+::\+Game}}
+
+
+{\ttfamily \#include $<$Game.\+hpp$>$}
+
+
+
+Collaboration diagram for Sekander\+:\+:Game\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=186pt]{classSekander_1_1Game__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSekander_1_1Game_a53c182b8b8b63723740aaef1b0cc25a0}{Game} (int width, int height, std\+::string title)
+\item 
+\hyperlink{classSekander_1_1Game_afe9c8ee4d47148de8fed696efe7bd9ac}{Game} (int width, int height, std\+::string title, bool)
+\item 
+\hyperlink{classSekander_1_1Game_a187c141c1b8b70416dccfbfb15d2a3db}{Game} (int width, int height, std\+::string title, bool, const char $\ast$xml\+\_\+\+D\+OC)
+\item 
+void \hyperlink{classSekander_1_1Game_a2bf4207f57e28e619fcdf383079c3a9d}{Toggle\+Fullscreen} ()
+\item 
+bool \hyperlink{classSekander_1_1Game_a70fe3c4cc2af6708dc19ffd54a782283}{Is\+Done} ()
+\item 
+bool \hyperlink{classSekander_1_1Game_aa919e9a5695d21c1ab19b2c8abe54041}{Is\+Fullscreen} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classSekander_1_1Game_ac944cfcfb5783b7788e591cd748ee51e}{Run} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const float \hyperlink{classSekander_1_1Game_ad38a233b0015262e84bd4f200378c295}{dt} = 1.\+0f / 60.\+0f
+\item 
+sf\+::\+Clock \hyperlink{classSekander_1_1Game_a834d5264e03e48eb2cf4fbc11e46b58d}{\+\_\+clock}
+\item 
+\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} \hyperlink{classSekander_1_1Game_a2a48d9df37ee8bb23b687a7f9c83a471}{\+\_\+data} = std\+::make\+\_\+shared$<$\hyperlink{structSekander_1_1GameData}{Game\+Data}$>$()
+\item 
+bool \hyperlink{classSekander_1_1Game_a416e310b39c99a719a9429b8366e7a0b}{m\+\_\+is\+Fullscreen}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSekander_1_1Game_a53c182b8b8b63723740aaef1b0cc25a0}\label{classSekander_1_1Game_a53c182b8b8b63723740aaef1b0cc25a0}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!Game@{Game}}
+\index{Game@{Game}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{Game()}{Game()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Sekander\+::\+Game\+::\+Game (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{std\+::string}]{title }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Game_afe9c8ee4d47148de8fed696efe7bd9ac}\label{classSekander_1_1Game_afe9c8ee4d47148de8fed696efe7bd9ac}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!Game@{Game}}
+\index{Game@{Game}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{Game()}{Game()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Sekander\+::\+Game\+::\+Game (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{std\+::string}]{title,  }\item[{bool}]{full\+Screen }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Game_a187c141c1b8b70416dccfbfb15d2a3db}\label{classSekander_1_1Game_a187c141c1b8b70416dccfbfb15d2a3db}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!Game@{Game}}
+\index{Game@{Game}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{Game()}{Game()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Sekander\+::\+Game\+::\+Game (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{std\+::string}]{title,  }\item[{bool}]{full\+Screen,  }\item[{const char $\ast$}]{xml\+\_\+\+D\+OC }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSekander_1_1Game_a70fe3c4cc2af6708dc19ffd54a782283}\label{classSekander_1_1Game_a70fe3c4cc2af6708dc19ffd54a782283}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!Is\+Done@{Is\+Done}}
+\index{Is\+Done@{Is\+Done}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{Is\+Done()}{IsDone()}}
+{\footnotesize\ttfamily bool Sekander\+::\+Game\+::\+Is\+Done (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Game_aa919e9a5695d21c1ab19b2c8abe54041}\label{classSekander_1_1Game_aa919e9a5695d21c1ab19b2c8abe54041}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!Is\+Fullscreen@{Is\+Fullscreen}}
+\index{Is\+Fullscreen@{Is\+Fullscreen}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{Is\+Fullscreen()}{IsFullscreen()}}
+{\footnotesize\ttfamily bool Sekander\+::\+Game\+::\+Is\+Fullscreen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Game_ac944cfcfb5783b7788e591cd748ee51e}\label{classSekander_1_1Game_ac944cfcfb5783b7788e591cd748ee51e}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!Run@{Run}}
+\index{Run@{Run}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{Run()}{Run()}}
+{\footnotesize\ttfamily void Sekander\+::\+Game\+::\+Run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Game_a2bf4207f57e28e619fcdf383079c3a9d}\label{classSekander_1_1Game_a2bf4207f57e28e619fcdf383079c3a9d}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!Toggle\+Fullscreen@{Toggle\+Fullscreen}}
+\index{Toggle\+Fullscreen@{Toggle\+Fullscreen}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{Toggle\+Fullscreen()}{ToggleFullscreen()}}
+{\footnotesize\ttfamily void Sekander\+::\+Game\+::\+Toggle\+Fullscreen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSekander_1_1Game_a834d5264e03e48eb2cf4fbc11e46b58d}\label{classSekander_1_1Game_a834d5264e03e48eb2cf4fbc11e46b58d}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!\+\_\+clock@{\+\_\+clock}}
+\index{\+\_\+clock@{\+\_\+clock}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{\+\_\+clock}{\_clock}}
+{\footnotesize\ttfamily sf\+::\+Clock Sekander\+::\+Game\+::\+\_\+clock\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Game_a2a48d9df37ee8bb23b687a7f9c83a471}\label{classSekander_1_1Game_a2a48d9df37ee8bb23b687a7f9c83a471}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!\+\_\+data@{\+\_\+data}}
+\index{\+\_\+data@{\+\_\+data}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{\+\_\+data}{\_data}}
+{\footnotesize\ttfamily \hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} Sekander\+::\+Game\+::\+\_\+data = std\+::make\+\_\+shared$<$\hyperlink{structSekander_1_1GameData}{Game\+Data}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Game_ad38a233b0015262e84bd4f200378c295}\label{classSekander_1_1Game_ad38a233b0015262e84bd4f200378c295}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!dt@{dt}}
+\index{dt@{dt}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{dt}{dt}}
+{\footnotesize\ttfamily const float Sekander\+::\+Game\+::dt = 1.\+0f / 60.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Game_a416e310b39c99a719a9429b8366e7a0b}\label{classSekander_1_1Game_a416e310b39c99a719a9429b8366e7a0b}} 
+\index{Sekander\+::\+Game@{Sekander\+::\+Game}!m\+\_\+is\+Fullscreen@{m\+\_\+is\+Fullscreen}}
+\index{m\+\_\+is\+Fullscreen@{m\+\_\+is\+Fullscreen}!Sekander\+::\+Game@{Sekander\+::\+Game}}
+\subsubsection{\texorpdfstring{m\+\_\+is\+Fullscreen}{m\_isFullscreen}}
+{\footnotesize\ttfamily bool Sekander\+::\+Game\+::m\+\_\+is\+Fullscreen\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/include/\hyperlink{Game_8hpp}{Game.\+hpp}\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/src/\hyperlink{Game_8cpp}{Game.\+cpp}\end{DoxyCompactItemize}

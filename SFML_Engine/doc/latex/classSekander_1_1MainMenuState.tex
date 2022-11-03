@@ -1,0 +1,447 @@
+\hypertarget{classSekander_1_1MainMenuState}{}\section{Sekander\+:\+:Main\+Menu\+State Class Reference}
+\label{classSekander_1_1MainMenuState}\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+
+
+{\ttfamily \#include $<$Main\+Menu\+State.\+hpp$>$}
+
+
+
+Inheritance diagram for Sekander\+:\+:Main\+Menu\+State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{classSekander_1_1MainMenuState__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sekander\+:\+:Main\+Menu\+State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classSekander_1_1MainMenuState__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSekander_1_1MainMenuState_a6358c7103ad56cb05813567ab1d591ba}{Main\+Menu\+State} (\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} data)
+\item 
+\hyperlink{classSekander_1_1MainMenuState_aeeea19d38e84e2ed002a4b47d6d8885e}{Main\+Menu\+State} (\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} data, const char $\ast$\hyperlink{classSekander_1_1MainMenuState_ab1dafb7e7d50beb5418e72334f81dabd}{xml\+\_\+\+D\+OC})
+\item 
+void \hyperlink{classSekander_1_1MainMenuState_a45ea852b4aa57ee6c6204da1262c5e91}{Init} ()
+\item 
+void \hyperlink{classSekander_1_1MainMenuState_a960cd5207d1869e28d6388e267672397}{Handle\+Input} ()
+\item 
+void \hyperlink{classSekander_1_1MainMenuState_aabbfda236df88eee953e3b88ca8e7631}{Update} (float dt)
+\item 
+void \hyperlink{classSekander_1_1MainMenuState_a18aceffe0c53cf90263c24665de379c1}{Draw} (float dt)
+\item 
+void \hyperlink{classSekander_1_1MainMenuState_ab70a367c525cfb7bc8e0f5497c1159a9}{Accept} ()
+\item 
+void \hyperlink{classSekander_1_1MainMenuState_ab29df2f2392625cddc8c414f9a67a320}{Conncet} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} \hyperlink{classSekander_1_1MainMenuState_a531c88f2e6cc0645a0884a838c821ebc}{\+\_\+data}
+\item 
+sf\+::\+Clock \hyperlink{classSekander_1_1MainMenuState_a6a325d1ce58ad153f8647cf415968e50}{\+\_\+clock}
+\item 
+sf\+::\+Sprite \hyperlink{classSekander_1_1MainMenuState_a4397a65b30ddc70f19fb7cb5eef95b40}{\+\_\+background}
+\item 
+sf\+::\+Sprite \hyperlink{classSekander_1_1MainMenuState_ab8a4eec1c1100bed373e648a0659d26c}{\+\_\+title}
+\item 
+sf\+::\+Sprite \hyperlink{classSekander_1_1MainMenuState_a0283163c03392b1f056e682885822568}{\+\_\+play\+Button}
+\item 
+const char $\ast$ \hyperlink{classSekander_1_1MainMenuState_ab1dafb7e7d50beb5418e72334f81dabd}{xml\+\_\+\+D\+OC}
+\item 
+\hyperlink{classSekander_1_1LoadingGameObjects}{Loading\+Game\+Objects} $\ast$ \hyperlink{classSekander_1_1MainMenuState_ac0847b104c1fcbfcf19c9216b453d34c}{ld}
+\item 
+sf\+::\+Sound\+Buffer \hyperlink{classSekander_1_1MainMenuState_a9e445190379faaf2b2f7f8a97f55204d}{buffer}
+\item 
+sf\+::\+Sound \hyperlink{classSekander_1_1MainMenuState_af764062a7f43fc388d4e687ab3dca3e5}{sound}
+\item 
+sf\+::\+Rectangle\+Shape \hyperlink{classSekander_1_1MainMenuState_afa67fe296f512954d3c571e2c238ebd0}{selection\+\_\+rec}
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_aca590f1c1e91223e5f783a93592f165c}{r} = 100
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_a8e13c8df7da479728bef75e72cf4fb29}{b} = 255
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_a8ee331bec9e89dcc67d231cf1c04bd83}{g} = 0
+\item 
+short int \hyperlink{classSekander_1_1MainMenuState_a8f65f83c7db9e9daae0aa0895f462367}{counter} = 0
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_a1a25539301721a9ee12f71309d5a62f1}{play\+\_\+button}
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_a5ebf1c8d29ebdea2c6f527e0f37929c1}{seting\+\_\+button}
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_a96d6929e4627393d278b955fd1de5d33}{exit\+\_\+button}
+\item 
+sf\+::\+Tcp\+Socket $\ast$ \hyperlink{classSekander_1_1MainMenuState_a3f5905df121c601a8e818d2eab62ba6b}{socket}
+\item 
+sf\+::\+Tcp\+Socket $\ast$ \hyperlink{classSekander_1_1MainMenuState_a62fcd2f99962a03992e2858dc4765d89}{client}
+\item 
+std\+::vector$<$ sf\+::\+Tcp\+Socket $\ast$ $>$ \hyperlink{classSekander_1_1MainMenuState_a7159a331d12d28479ee65786f7c93bc1}{socket\+\_\+list}
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_a3162344a57f59cc489ed9caba2863bf1}{\+\_\+host} = false
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_aee9956c65e169ef75ccb46022d4785cb}{\+\_\+connect} = false
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_a32c8906cd8fadf7605bcda2179d2c19f}{i\+\_\+am\+\_\+the\+\_\+host} = false
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_ac844479292f860e487a2b24d447dd6dc}{i\+\_\+am\+\_\+the\+\_\+client} = false
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_ab8863f0722718dd1331d7f5a11c0a5fe}{established\+\_\+connection} = false
+\item 
+double \hyperlink{classSekander_1_1MainMenuState_afe1fb61b370c0c2e437af904d2529012}{two\+\_\+\+PI}
+\item 
+double \hyperlink{classSekander_1_1MainMenuState_ac958e893ea737c7940d313d6c85d4f97}{amplitude} = 200
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_ad598c82514f10a946507387748488e92}{frequency} = 1
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_a0ecd1f7e9110bd75c802497ff59e2220}{k} = 0
+\item 
+double \hyperlink{classSekander_1_1MainMenuState_a863c7ceaeacacb0176b025aacc2ac4dc}{y}
+\item 
+double \hyperlink{classSekander_1_1MainMenuState_a8f252e97a1df6804381dd900ec16d9ba}{x}
+\item 
+double \hyperlink{classSekander_1_1MainMenuState_a66dfd5262c9d2248e4dd4028b4a1b59e}{h} = 1
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_a31a95c62e0539845388ac18d68c51098}{n\+\_\+point} = 1000
+\item 
+sf\+::\+Rectangle\+Shape \hyperlink{classSekander_1_1MainMenuState_ab4bc4a5922ecc10449370f3e7fa94d47}{window\+\_\+rec}
+\item 
+sf\+::\+Rectangle\+Shape \hyperlink{classSekander_1_1MainMenuState_a9e090e4993c718debc56945b2921b751}{window\+\_\+rec2}
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_aa371caf0a47f5f6423236d0d33cccf22}{a} = 255
+\item 
+int \hyperlink{classSekander_1_1MainMenuState_a6325eb8b3d56ee143f033ea897ff9bbd}{a\+\_\+b} = 0
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_acea6e58d065065f4bc83b27f8b082a13}{\+\_\+max}
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_a186148721efc437af0da39d75ebe00c3}{fade\+\_\+out}
+\item 
+bool \hyperlink{classSekander_1_1MainMenuState_ad0b61501d7825abab5207f3eb83c7196}{connection\+\_\+established} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a6358c7103ad56cb05813567ab1d591ba}\label{classSekander_1_1MainMenuState_a6358c7103ad56cb05813567ab1d591ba}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Main\+Menu\+State@{Main\+Menu\+State}}
+\index{Main\+Menu\+State@{Main\+Menu\+State}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Main\+Menu\+State()}{MainMenuState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Sekander\+::\+Main\+Menu\+State\+::\+Main\+Menu\+State (\begin{DoxyParamCaption}\item[{\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref}}]{data }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_aeeea19d38e84e2ed002a4b47d6d8885e}\label{classSekander_1_1MainMenuState_aeeea19d38e84e2ed002a4b47d6d8885e}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Main\+Menu\+State@{Main\+Menu\+State}}
+\index{Main\+Menu\+State@{Main\+Menu\+State}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Main\+Menu\+State()}{MainMenuState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Sekander\+::\+Main\+Menu\+State\+::\+Main\+Menu\+State (\begin{DoxyParamCaption}\item[{\hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref}}]{data,  }\item[{const char $\ast$}]{xml\+\_\+\+D\+OC }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ab70a367c525cfb7bc8e0f5497c1159a9}\label{classSekander_1_1MainMenuState_ab70a367c525cfb7bc8e0f5497c1159a9}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Accept@{Accept}}
+\index{Accept@{Accept}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Accept()}{Accept()}}
+{\footnotesize\ttfamily void Sekander\+::\+Main\+Menu\+State\+::\+Accept (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ab29df2f2392625cddc8c414f9a67a320}\label{classSekander_1_1MainMenuState_ab29df2f2392625cddc8c414f9a67a320}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Conncet@{Conncet}}
+\index{Conncet@{Conncet}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Conncet()}{Conncet()}}
+{\footnotesize\ttfamily void Sekander\+::\+Main\+Menu\+State\+::\+Conncet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a18aceffe0c53cf90263c24665de379c1}\label{classSekander_1_1MainMenuState_a18aceffe0c53cf90263c24665de379c1}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Draw@{Draw}}
+\index{Draw@{Draw}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Sekander\+::\+Main\+Menu\+State\+::\+Draw (\begin{DoxyParamCaption}\item[{float}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{classSekander_1_1State_a6ae7c2de1985461232a3ad694ca736b5}{Sekander\+::\+State}.
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a960cd5207d1869e28d6388e267672397}\label{classSekander_1_1MainMenuState_a960cd5207d1869e28d6388e267672397}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Handle\+Input@{Handle\+Input}}
+\index{Handle\+Input@{Handle\+Input}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Handle\+Input()}{HandleInput()}}
+{\footnotesize\ttfamily void Sekander\+::\+Main\+Menu\+State\+::\+Handle\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{classSekander_1_1State_ad55ae42f5887db5745fda9f2bd30aaa3}{Sekander\+::\+State}.
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a45ea852b4aa57ee6c6204da1262c5e91}\label{classSekander_1_1MainMenuState_a45ea852b4aa57ee6c6204da1262c5e91}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Init@{Init}}
+\index{Init@{Init}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void Sekander\+::\+Main\+Menu\+State\+::\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{classSekander_1_1State_a171be4b77d4c13e01849b867bd3fa8f5}{Sekander\+::\+State}.
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_aabbfda236df88eee953e3b88ca8e7631}\label{classSekander_1_1MainMenuState_aabbfda236df88eee953e3b88ca8e7631}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!Update@{Update}}
+\index{Update@{Update}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Sekander\+::\+Main\+Menu\+State\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{classSekander_1_1State_a08d49e399db6f68247f410f7fddc7963}{Sekander\+::\+State}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a4397a65b30ddc70f19fb7cb5eef95b40}\label{classSekander_1_1MainMenuState_a4397a65b30ddc70f19fb7cb5eef95b40}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+background@{\+\_\+background}}
+\index{\+\_\+background@{\+\_\+background}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+background}{\_background}}
+{\footnotesize\ttfamily sf\+::\+Sprite Sekander\+::\+Main\+Menu\+State\+::\+\_\+background\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a6a325d1ce58ad153f8647cf415968e50}\label{classSekander_1_1MainMenuState_a6a325d1ce58ad153f8647cf415968e50}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+clock@{\+\_\+clock}}
+\index{\+\_\+clock@{\+\_\+clock}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+clock}{\_clock}}
+{\footnotesize\ttfamily sf\+::\+Clock Sekander\+::\+Main\+Menu\+State\+::\+\_\+clock\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_aee9956c65e169ef75ccb46022d4785cb}\label{classSekander_1_1MainMenuState_aee9956c65e169ef75ccb46022d4785cb}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+connect@{\+\_\+connect}}
+\index{\+\_\+connect@{\+\_\+connect}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+connect}{\_connect}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::\+\_\+connect = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a531c88f2e6cc0645a0884a838c821ebc}\label{classSekander_1_1MainMenuState_a531c88f2e6cc0645a0884a838c821ebc}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+data@{\+\_\+data}}
+\index{\+\_\+data@{\+\_\+data}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+data}{\_data}}
+{\footnotesize\ttfamily \hyperlink{namespaceSekander_a1d69b002ba2d23020901c28f0def5e16}{Game\+Data\+Ref} Sekander\+::\+Main\+Menu\+State\+::\+\_\+data\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a3162344a57f59cc489ed9caba2863bf1}\label{classSekander_1_1MainMenuState_a3162344a57f59cc489ed9caba2863bf1}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+host@{\+\_\+host}}
+\index{\+\_\+host@{\+\_\+host}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+host}{\_host}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::\+\_\+host = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_acea6e58d065065f4bc83b27f8b082a13}\label{classSekander_1_1MainMenuState_acea6e58d065065f4bc83b27f8b082a13}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+max@{\+\_\+max}}
+\index{\+\_\+max@{\+\_\+max}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+max}{\_max}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::\+\_\+max\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a0283163c03392b1f056e682885822568}\label{classSekander_1_1MainMenuState_a0283163c03392b1f056e682885822568}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+play\+Button@{\+\_\+play\+Button}}
+\index{\+\_\+play\+Button@{\+\_\+play\+Button}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+play\+Button}{\_playButton}}
+{\footnotesize\ttfamily sf\+::\+Sprite Sekander\+::\+Main\+Menu\+State\+::\+\_\+play\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ab8a4eec1c1100bed373e648a0659d26c}\label{classSekander_1_1MainMenuState_ab8a4eec1c1100bed373e648a0659d26c}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!\+\_\+title@{\+\_\+title}}
+\index{\+\_\+title@{\+\_\+title}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{\+\_\+title}{\_title}}
+{\footnotesize\ttfamily sf\+::\+Sprite Sekander\+::\+Main\+Menu\+State\+::\+\_\+title\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_aa371caf0a47f5f6423236d0d33cccf22}\label{classSekander_1_1MainMenuState_aa371caf0a47f5f6423236d0d33cccf22}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!a@{a}}
+\index{a@{a}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{a}{a}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::a = 255\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a6325eb8b3d56ee143f033ea897ff9bbd}\label{classSekander_1_1MainMenuState_a6325eb8b3d56ee143f033ea897ff9bbd}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!a\+\_\+b@{a\+\_\+b}}
+\index{a\+\_\+b@{a\+\_\+b}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{a\+\_\+b}{a\_b}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::a\+\_\+b = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ac958e893ea737c7940d313d6c85d4f97}\label{classSekander_1_1MainMenuState_ac958e893ea737c7940d313d6c85d4f97}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!amplitude@{amplitude}}
+\index{amplitude@{amplitude}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{amplitude}{amplitude}}
+{\footnotesize\ttfamily double Sekander\+::\+Main\+Menu\+State\+::amplitude = 200\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a8e13c8df7da479728bef75e72cf4fb29}\label{classSekander_1_1MainMenuState_a8e13c8df7da479728bef75e72cf4fb29}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!b@{b}}
+\index{b@{b}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{b}{b}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::b = 255\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a9e445190379faaf2b2f7f8a97f55204d}\label{classSekander_1_1MainMenuState_a9e445190379faaf2b2f7f8a97f55204d}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!buffer@{buffer}}
+\index{buffer@{buffer}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{buffer}{buffer}}
+{\footnotesize\ttfamily sf\+::\+Sound\+Buffer Sekander\+::\+Main\+Menu\+State\+::buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a62fcd2f99962a03992e2858dc4765d89}\label{classSekander_1_1MainMenuState_a62fcd2f99962a03992e2858dc4765d89}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!client@{client}}
+\index{client@{client}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{client}{client}}
+{\footnotesize\ttfamily sf\+::\+Tcp\+Socket$\ast$ Sekander\+::\+Main\+Menu\+State\+::client\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ad0b61501d7825abab5207f3eb83c7196}\label{classSekander_1_1MainMenuState_ad0b61501d7825abab5207f3eb83c7196}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!connection\+\_\+established@{connection\+\_\+established}}
+\index{connection\+\_\+established@{connection\+\_\+established}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{connection\+\_\+established}{connection\_established}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::connection\+\_\+established = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a8f65f83c7db9e9daae0aa0895f462367}\label{classSekander_1_1MainMenuState_a8f65f83c7db9e9daae0aa0895f462367}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!counter@{counter}}
+\index{counter@{counter}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{counter}{counter}}
+{\footnotesize\ttfamily short int Sekander\+::\+Main\+Menu\+State\+::counter = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ab8863f0722718dd1331d7f5a11c0a5fe}\label{classSekander_1_1MainMenuState_ab8863f0722718dd1331d7f5a11c0a5fe}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!established\+\_\+connection@{established\+\_\+connection}}
+\index{established\+\_\+connection@{established\+\_\+connection}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{established\+\_\+connection}{established\_connection}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::established\+\_\+connection = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a96d6929e4627393d278b955fd1de5d33}\label{classSekander_1_1MainMenuState_a96d6929e4627393d278b955fd1de5d33}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!exit\+\_\+button@{exit\+\_\+button}}
+\index{exit\+\_\+button@{exit\+\_\+button}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{exit\+\_\+button}{exit\_button}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::exit\+\_\+button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a186148721efc437af0da39d75ebe00c3}\label{classSekander_1_1MainMenuState_a186148721efc437af0da39d75ebe00c3}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!fade\+\_\+out@{fade\+\_\+out}}
+\index{fade\+\_\+out@{fade\+\_\+out}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{fade\+\_\+out}{fade\_out}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::fade\+\_\+out\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ad598c82514f10a946507387748488e92}\label{classSekander_1_1MainMenuState_ad598c82514f10a946507387748488e92}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!frequency@{frequency}}
+\index{frequency@{frequency}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{frequency}{frequency}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::frequency = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a8ee331bec9e89dcc67d231cf1c04bd83}\label{classSekander_1_1MainMenuState_a8ee331bec9e89dcc67d231cf1c04bd83}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!g@{g}}
+\index{g@{g}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{g}{g}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::g = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a66dfd5262c9d2248e4dd4028b4a1b59e}\label{classSekander_1_1MainMenuState_a66dfd5262c9d2248e4dd4028b4a1b59e}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!h@{h}}
+\index{h@{h}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily double Sekander\+::\+Main\+Menu\+State\+::h = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ac844479292f860e487a2b24d447dd6dc}\label{classSekander_1_1MainMenuState_ac844479292f860e487a2b24d447dd6dc}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!i\+\_\+am\+\_\+the\+\_\+client@{i\+\_\+am\+\_\+the\+\_\+client}}
+\index{i\+\_\+am\+\_\+the\+\_\+client@{i\+\_\+am\+\_\+the\+\_\+client}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{i\+\_\+am\+\_\+the\+\_\+client}{i\_am\_the\_client}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::i\+\_\+am\+\_\+the\+\_\+client = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a32c8906cd8fadf7605bcda2179d2c19f}\label{classSekander_1_1MainMenuState_a32c8906cd8fadf7605bcda2179d2c19f}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!i\+\_\+am\+\_\+the\+\_\+host@{i\+\_\+am\+\_\+the\+\_\+host}}
+\index{i\+\_\+am\+\_\+the\+\_\+host@{i\+\_\+am\+\_\+the\+\_\+host}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{i\+\_\+am\+\_\+the\+\_\+host}{i\_am\_the\_host}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::i\+\_\+am\+\_\+the\+\_\+host = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a0ecd1f7e9110bd75c802497ff59e2220}\label{classSekander_1_1MainMenuState_a0ecd1f7e9110bd75c802497ff59e2220}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!k@{k}}
+\index{k@{k}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{k}{k}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::k = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ac0847b104c1fcbfcf19c9216b453d34c}\label{classSekander_1_1MainMenuState_ac0847b104c1fcbfcf19c9216b453d34c}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!ld@{ld}}
+\index{ld@{ld}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{ld}{ld}}
+{\footnotesize\ttfamily \hyperlink{classSekander_1_1LoadingGameObjects}{Loading\+Game\+Objects}$\ast$ Sekander\+::\+Main\+Menu\+State\+::ld\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a31a95c62e0539845388ac18d68c51098}\label{classSekander_1_1MainMenuState_a31a95c62e0539845388ac18d68c51098}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!n\+\_\+point@{n\+\_\+point}}
+\index{n\+\_\+point@{n\+\_\+point}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{n\+\_\+point}{n\_point}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::n\+\_\+point = 1000\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a1a25539301721a9ee12f71309d5a62f1}\label{classSekander_1_1MainMenuState_a1a25539301721a9ee12f71309d5a62f1}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!play\+\_\+button@{play\+\_\+button}}
+\index{play\+\_\+button@{play\+\_\+button}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{play\+\_\+button}{play\_button}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::play\+\_\+button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_aca590f1c1e91223e5f783a93592f165c}\label{classSekander_1_1MainMenuState_aca590f1c1e91223e5f783a93592f165c}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!r@{r}}
+\index{r@{r}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{r}{r}}
+{\footnotesize\ttfamily int Sekander\+::\+Main\+Menu\+State\+::r = 100\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_afa67fe296f512954d3c571e2c238ebd0}\label{classSekander_1_1MainMenuState_afa67fe296f512954d3c571e2c238ebd0}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!selection\+\_\+rec@{selection\+\_\+rec}}
+\index{selection\+\_\+rec@{selection\+\_\+rec}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{selection\+\_\+rec}{selection\_rec}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape Sekander\+::\+Main\+Menu\+State\+::selection\+\_\+rec\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a5ebf1c8d29ebdea2c6f527e0f37929c1}\label{classSekander_1_1MainMenuState_a5ebf1c8d29ebdea2c6f527e0f37929c1}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!seting\+\_\+button@{seting\+\_\+button}}
+\index{seting\+\_\+button@{seting\+\_\+button}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{seting\+\_\+button}{seting\_button}}
+{\footnotesize\ttfamily bool Sekander\+::\+Main\+Menu\+State\+::seting\+\_\+button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a3f5905df121c601a8e818d2eab62ba6b}\label{classSekander_1_1MainMenuState_a3f5905df121c601a8e818d2eab62ba6b}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!socket@{socket}}
+\index{socket@{socket}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{socket}{socket}}
+{\footnotesize\ttfamily sf\+::\+Tcp\+Socket$\ast$ Sekander\+::\+Main\+Menu\+State\+::socket\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a7159a331d12d28479ee65786f7c93bc1}\label{classSekander_1_1MainMenuState_a7159a331d12d28479ee65786f7c93bc1}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!socket\+\_\+list@{socket\+\_\+list}}
+\index{socket\+\_\+list@{socket\+\_\+list}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{socket\+\_\+list}{socket\_list}}
+{\footnotesize\ttfamily std\+::vector$<$sf\+::\+Tcp\+Socket$\ast$$>$ Sekander\+::\+Main\+Menu\+State\+::socket\+\_\+list\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_af764062a7f43fc388d4e687ab3dca3e5}\label{classSekander_1_1MainMenuState_af764062a7f43fc388d4e687ab3dca3e5}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!sound@{sound}}
+\index{sound@{sound}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{sound}{sound}}
+{\footnotesize\ttfamily sf\+::\+Sound Sekander\+::\+Main\+Menu\+State\+::sound\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_afe1fb61b370c0c2e437af904d2529012}\label{classSekander_1_1MainMenuState_afe1fb61b370c0c2e437af904d2529012}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!two\+\_\+\+PI@{two\+\_\+\+PI}}
+\index{two\+\_\+\+PI@{two\+\_\+\+PI}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{two\+\_\+\+PI}{two\_PI}}
+{\footnotesize\ttfamily double Sekander\+::\+Main\+Menu\+State\+::two\+\_\+\+PI\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ab4bc4a5922ecc10449370f3e7fa94d47}\label{classSekander_1_1MainMenuState_ab4bc4a5922ecc10449370f3e7fa94d47}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!window\+\_\+rec@{window\+\_\+rec}}
+\index{window\+\_\+rec@{window\+\_\+rec}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{window\+\_\+rec}{window\_rec}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape Sekander\+::\+Main\+Menu\+State\+::window\+\_\+rec\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a9e090e4993c718debc56945b2921b751}\label{classSekander_1_1MainMenuState_a9e090e4993c718debc56945b2921b751}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!window\+\_\+rec2@{window\+\_\+rec2}}
+\index{window\+\_\+rec2@{window\+\_\+rec2}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{window\+\_\+rec2}{window\_rec2}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape Sekander\+::\+Main\+Menu\+State\+::window\+\_\+rec2\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a8f252e97a1df6804381dd900ec16d9ba}\label{classSekander_1_1MainMenuState_a8f252e97a1df6804381dd900ec16d9ba}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!x@{x}}
+\index{x@{x}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily double Sekander\+::\+Main\+Menu\+State\+::x\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_ab1dafb7e7d50beb5418e72334f81dabd}\label{classSekander_1_1MainMenuState_ab1dafb7e7d50beb5418e72334f81dabd}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!xml\+\_\+\+D\+OC@{xml\+\_\+\+D\+OC}}
+\index{xml\+\_\+\+D\+OC@{xml\+\_\+\+D\+OC}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{xml\+\_\+\+D\+OC}{xml\_DOC}}
+{\footnotesize\ttfamily const char$\ast$ Sekander\+::\+Main\+Menu\+State\+::xml\+\_\+\+D\+OC\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1MainMenuState_a863c7ceaeacacb0176b025aacc2ac4dc}\label{classSekander_1_1MainMenuState_a863c7ceaeacacb0176b025aacc2ac4dc}} 
+\index{Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}!y@{y}}
+\index{y@{y}!Sekander\+::\+Main\+Menu\+State@{Sekander\+::\+Main\+Menu\+State}}
+\subsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily double Sekander\+::\+Main\+Menu\+State\+::y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/include/\hyperlink{MainMenuState_8hpp}{Main\+Menu\+State.\+hpp}\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/src/\hyperlink{MainMenuState_8cpp}{Main\+Menu\+State.\+cpp}\end{DoxyCompactItemize}

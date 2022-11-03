@@ -1,0 +1,6 @@
+<map id="Sekander::GameData" name="Sekander::GameData">
+<area shape="rect" id="node2" href="$classSekander_1_1AssetManager.html" title="{Sekander::AssetManager\n|&#45; _textures\l&#45; _fonts\l|+ AssetManager()\l+ ~AssetManager()\l+ LoadTexture()\l+ GetTexture()\l+ LoadFont()\l+ GetFont()\l}" alt="" coords="5,71,175,237"/>
+<area shape="rect" id="node3" href="$classSekander_1_1EntityManager.html" title="{Sekander::EntityManager\n|&#45; entities\l&#45; world\l&#45; vertices\l&#45; vertices_vec\l|+ EntityManager()\l+ Add()\l+ Add()\l+ newEdge()\l+ newEdge()\l+ Get()\l+ ListAllEnties()\l+ ReturnMap()\l+ Update()\l+ Render()\l+ DeleteEntity()\l+ EnableEntity()\l+ ~EntityManager()\l}" alt="" coords="199,5,368,303"/>
+<area shape="rect" id="node4" href="$classSekander_1_1InputManager.html" title="{Sekander::InputManager\n|&#45; _key\l|+ InputManager()\l+ ~InputManager()\l+ IsSpriteClicked()\l+ IsKeyPressed()\l+ GetMousePosition()\l}" alt="" coords="392,86,556,222"/>
+<area shape="rect" id="node5" href="$classSekander_1_1StateMachine.html" title="{Sekander::StateMachine\n|&#45; _states\l&#45; _newState\l&#45; _isRemoving\l&#45; _isAdding\l&#45; _isReplacing\l|+ StateMachine()\l+ ~StateMachine()\l+ AddState()\l+ RemoveState()\l+ ProcessStateChanges()\l+ GetActiveState()\l}" alt="" coords="581,49,754,259"/>
+</map>

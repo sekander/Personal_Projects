@@ -1,0 +1,3 @@
+<map id="MainMenuState" name="MainMenuState">
+<area shape="rect" id="node2" href="$classState.html" title="{State\n||+ Init()\l+ Input()\l+ Update()\l+ Render()\l+ DeleteData()\l}" alt="" coords="20,5,128,141"/>
+</map>
