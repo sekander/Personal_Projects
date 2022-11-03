@@ -1,3 +1,0 @@
-<map id="Sekander::Main_Player" name="Sekander::Main_Player">
-<area shape="rect" id="node2" href="$classSekander_1_1GameWorld.html" title="{Sekander::GameWorld\n|+ is_key_pressed\l+ counter\l+ input_counter\l+ m_OnFloor\l+ m_In_the_Air\l&#45; _data\l&#45; _playerSprite\l&#45; _animationIterator\l&#45; _key\l&#45; _clock\l&#45; _playerRect\l&#45; _playerState\l&#45; source\l&#45; _sprite_WIDTH\l&#45; _sprite_HEIGHT\land 11 more...\l|+ GameWorld()\l+ GameWorld()\l+ GameWorld()\l+ Draw()\l+ Animate()\l+ Animate()\l+ Update()\l+ checkKEYPRESS()\l+ pressure_sensitive\l_KEY_PRESS()\l+ StartAnimation()\land 6 more...\l}" alt="" coords="7,5,161,464"/>
-</map>
