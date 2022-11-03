@@ -1,0 +1,13 @@
+valgrind --tool=memcheck --leak-check=full ./default_engine
+
+==29697== HEAP SUMMARY:
+==29697==     in use at exit: 50,149 bytes in 690 blocks
+==29697==   total heap usage: 54,974 allocs, 54,284 frees, 15,668,932 bytes allocated
+==29697== 
+==29697== LEAK SUMMARY:
+==29697==    definitely lost: 0 bytes in 0 blocks
+==29697==    indirectly lost: 0 bytes in 0 blocks
+==29697==      possibly lost: 0 bytes in 0 blocks
+==29697==    still reachable: 50,149 bytes in 690 blocks
+==29697==         suppressed: 0 bytes in 0 blocks
+

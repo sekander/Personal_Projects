@@ -1,0 +1,245 @@
+\hypertarget{classSekander_1_1Entity}{}\section{Sekander\+:\+:Entity Class Reference}
+\label{classSekander_1_1Entity}\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+
+
+{\ttfamily \#include $<$entity.\+h$>$}
+
+
+
+Inheritance diagram for Sekander\+:\+:Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classSekander_1_1Entity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sekander\+:\+:Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classSekander_1_1Entity__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSekander_1_1Entity_a2457570ea4a0a1009937a153f8f071f8}{Entity} (b2\+World $\ast$\hyperlink{classSekander_1_1Entity_a6c88c4e735203734409fdd7b1eddca39}{world})
+\item 
+void \hyperlink{classSekander_1_1Entity_a80ce51e0d09a5ac63eb3c385c47f5d73}{Load} (std\+::string filename, bool dynamic, unsigned const short int x\+\_\+frame, unsigned const short int y\+\_\+frame)
+\item 
+void \hyperlink{classSekander_1_1Entity_a3381ab7a718fbb980415910f47970468}{Load} (std\+::string filename, bool dynamic, struct \hyperlink{structSekander_1_1b0x__2d__SHAPES}{b0x\+\_\+2d\+\_\+\+S\+H\+A\+P\+ES} $\ast$\hyperlink{classSekander_1_1Entity_a51d32e27f0af3c9f1d68cc27117310ad}{shape}, unsigned const short int x\+\_\+frame, unsigned const short int y\+\_\+frame)
+\item 
+void \hyperlink{classSekander_1_1Entity_a0f2ae50422b408ef0de2cdcb31f120b4}{Create\+Edeg} (float, float, float, float)
+\item 
+void \hyperlink{classSekander_1_1Entity_a194f6b6f8a256a3bc0ee73f3eadeb0d0}{Create\+Edeg} ()
+\item 
+bool \hyperlink{classSekander_1_1Entity_a37320c3ef99e534f80f0306ebdf084ed}{Update} (sf\+::\+Render\+Window \&window)
+\item 
+bool \hyperlink{classSekander_1_1Entity_a202c7a8db6bcd754ebdd907d4383a6fb}{Check\+Collision} (\hyperlink{classSekander_1_1Entity}{Entity} $\ast$entity)
+\item 
+int \hyperlink{classSekander_1_1Entity_aaca12636d13d15fe2c84d48c64c43dc4}{Group\+ID} ()
+\item 
+int \hyperlink{classSekander_1_1Entity_af8b43d3ca6c6740d3e356d98656fa370}{Active} ()
+\item 
+void \hyperlink{classSekander_1_1Entity_a55dcbd586dfa0b339d5116ff14d58cbd}{Delete\+Shape} ()
+\item 
+void \hyperlink{classSekander_1_1Entity_a85095c868a53dffcb7d1f9c080448c7f}{Destroy} ()
+\item 
+void \hyperlink{classSekander_1_1Entity_a084a9bfb47b0efd2c5098e5f97b51c79}{Enable} ()
+\item 
+\hyperlink{classSekander_1_1Entity_a2246c81f180544956e614c786b7a2427}{$\sim$\+Entity} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Vector2f \hyperlink{classSekander_1_1Entity_a7c88f6c5a89eca36cb1204c4eaf0868e}{velocity}
+\item 
+b2\+Body $\ast$ \hyperlink{classSekander_1_1Entity_a61bec1a7b77dd9b5e08c0908566450d4}{body}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classSekander_1_1Entity_a6bd181c05edd3e27fa18efdd5dab2895}{active}
+\item 
+int \hyperlink{classSekander_1_1Entity_a877b3b7b7b81c7e11cb174d1a4fc3b85}{group\+Id}
+\item 
+b2\+World $\ast$ \hyperlink{classSekander_1_1Entity_a6c88c4e735203734409fdd7b1eddca39}{world}
+\item 
+b2\+Body\+Def $\ast$ \hyperlink{classSekander_1_1Entity_af8218d721852341a99eb08ee8ead53ff}{body\+Def}
+\item 
+b2\+Polygon\+Shape $\ast$ \hyperlink{classSekander_1_1Entity_a51d32e27f0af3c9f1d68cc27117310ad}{shape}
+\item 
+b2\+Edge\+Shape $\ast$ \hyperlink{classSekander_1_1Entity_a85af7309806860be286eb7b7fa89856e}{edge}
+\item 
+b2\+Circle\+Shape $\ast$ \hyperlink{classSekander_1_1Entity_ab1117f25502fe84887cae07b40272bbf}{circle}
+\item 
+b2\+Fixture\+Def $\ast$ \hyperlink{classSekander_1_1Entity_a1320e01ecadb8733a7a6204c8383bd4c}{fixture\+Def}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Texture $\ast$ \hyperlink{classSekander_1_1Entity_afb04e74d48d113702c32c991accda0cc}{texture}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSekander_1_1Entity_a2457570ea4a0a1009937a153f8f071f8}\label{classSekander_1_1Entity_a2457570ea4a0a1009937a153f8f071f8}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Entity()}{Entity()}}
+{\footnotesize\ttfamily Sekander\+::\+Entity\+::\+Entity (\begin{DoxyParamCaption}\item[{b2\+World $\ast$}]{world }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a2246c81f180544956e614c786b7a2427}\label{classSekander_1_1Entity_a2246c81f180544956e614c786b7a2427}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!````~Entity@{$\sim$\+Entity}}
+\index{````~Entity@{$\sim$\+Entity}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{$\sim$\+Entity()}{~Entity()}}
+{\footnotesize\ttfamily Sekander\+::\+Entity\+::$\sim$\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSekander_1_1Entity_af8b43d3ca6c6740d3e356d98656fa370}\label{classSekander_1_1Entity_af8b43d3ca6c6740d3e356d98656fa370}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Active@{Active}}
+\index{Active@{Active}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Active()}{Active()}}
+{\footnotesize\ttfamily int Sekander\+::\+Entity\+::\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a202c7a8db6bcd754ebdd907d4383a6fb}\label{classSekander_1_1Entity_a202c7a8db6bcd754ebdd907d4383a6fb}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Check\+Collision@{Check\+Collision}}
+\index{Check\+Collision@{Check\+Collision}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Check\+Collision()}{CheckCollision()}}
+{\footnotesize\ttfamily bool Sekander\+::\+Entity\+::\+Check\+Collision (\begin{DoxyParamCaption}\item[{\hyperlink{classSekander_1_1Entity}{Entity} $\ast$}]{entity }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a0f2ae50422b408ef0de2cdcb31f120b4}\label{classSekander_1_1Entity_a0f2ae50422b408ef0de2cdcb31f120b4}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Create\+Edeg@{Create\+Edeg}}
+\index{Create\+Edeg@{Create\+Edeg}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Create\+Edeg()}{CreateEdeg()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Sekander\+::\+Entity\+::\+Create\+Edeg (\begin{DoxyParamCaption}\item[{float}]{x\+\_\+point\+\_\+origin,  }\item[{float}]{y\+\_\+point\+\_\+origin,  }\item[{float}]{x\+\_\+point\+\_\+dest,  }\item[{float}]{y\+\_\+point\+\_\+dest }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a194f6b6f8a256a3bc0ee73f3eadeb0d0}\label{classSekander_1_1Entity_a194f6b6f8a256a3bc0ee73f3eadeb0d0}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Create\+Edeg@{Create\+Edeg}}
+\index{Create\+Edeg@{Create\+Edeg}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Create\+Edeg()}{CreateEdeg()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Sekander\+::\+Entity\+::\+Create\+Edeg (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a55dcbd586dfa0b339d5116ff14d58cbd}\label{classSekander_1_1Entity_a55dcbd586dfa0b339d5116ff14d58cbd}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Delete\+Shape@{Delete\+Shape}}
+\index{Delete\+Shape@{Delete\+Shape}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Delete\+Shape()}{DeleteShape()}}
+{\footnotesize\ttfamily void Sekander\+::\+Entity\+::\+Delete\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a85095c868a53dffcb7d1f9c080448c7f}\label{classSekander_1_1Entity_a85095c868a53dffcb7d1f9c080448c7f}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Destroy()}{Destroy()}}
+{\footnotesize\ttfamily void Sekander\+::\+Entity\+::\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a084a9bfb47b0efd2c5098e5f97b51c79}\label{classSekander_1_1Entity_a084a9bfb47b0efd2c5098e5f97b51c79}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Enable@{Enable}}
+\index{Enable@{Enable}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Enable()}{Enable()}}
+{\footnotesize\ttfamily void Sekander\+::\+Entity\+::\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_aaca12636d13d15fe2c84d48c64c43dc4}\label{classSekander_1_1Entity_aaca12636d13d15fe2c84d48c64c43dc4}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Group\+ID@{Group\+ID}}
+\index{Group\+ID@{Group\+ID}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Group\+I\+D()}{GroupID()}}
+{\footnotesize\ttfamily int Sekander\+::\+Entity\+::\+Group\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a80ce51e0d09a5ac63eb3c385c47f5d73}\label{classSekander_1_1Entity_a80ce51e0d09a5ac63eb3c385c47f5d73}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Load@{Load}}
+\index{Load@{Load}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Load()}{Load()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Sekander\+::\+Entity\+::\+Load (\begin{DoxyParamCaption}\item[{std\+::string}]{filename,  }\item[{bool}]{dynamic,  }\item[{unsigned const short int}]{x\+\_\+frame,  }\item[{unsigned const short int}]{y\+\_\+frame }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a3381ab7a718fbb980415910f47970468}\label{classSekander_1_1Entity_a3381ab7a718fbb980415910f47970468}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Load@{Load}}
+\index{Load@{Load}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Load()}{Load()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Sekander\+::\+Entity\+::\+Load (\begin{DoxyParamCaption}\item[{std\+::string}]{filename,  }\item[{bool}]{dynamic,  }\item[{struct \hyperlink{structSekander_1_1b0x__2d__SHAPES}{b0x\+\_\+2d\+\_\+\+S\+H\+A\+P\+ES} $\ast$}]{shape,  }\item[{unsigned const short int}]{x\+\_\+frame,  }\item[{unsigned const short int}]{y\+\_\+frame }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a37320c3ef99e534f80f0306ebdf084ed}\label{classSekander_1_1Entity_a37320c3ef99e534f80f0306ebdf084ed}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!Update@{Update}}
+\index{Update@{Update}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily bool Sekander\+::\+Entity\+::\+Update (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSekander_1_1Entity_a6bd181c05edd3e27fa18efdd5dab2895}\label{classSekander_1_1Entity_a6bd181c05edd3e27fa18efdd5dab2895}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!active@{active}}
+\index{active@{active}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily int Sekander\+::\+Entity\+::active\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a61bec1a7b77dd9b5e08c0908566450d4}\label{classSekander_1_1Entity_a61bec1a7b77dd9b5e08c0908566450d4}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!body@{body}}
+\index{body@{body}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{body}{body}}
+{\footnotesize\ttfamily b2\+Body$\ast$ Sekander\+::\+Entity\+::body}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_af8218d721852341a99eb08ee8ead53ff}\label{classSekander_1_1Entity_af8218d721852341a99eb08ee8ead53ff}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!body\+Def@{body\+Def}}
+\index{body\+Def@{body\+Def}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{body\+Def}{bodyDef}}
+{\footnotesize\ttfamily b2\+Body\+Def$\ast$ Sekander\+::\+Entity\+::body\+Def\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_ab1117f25502fe84887cae07b40272bbf}\label{classSekander_1_1Entity_ab1117f25502fe84887cae07b40272bbf}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!circle@{circle}}
+\index{circle@{circle}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{circle}{circle}}
+{\footnotesize\ttfamily b2\+Circle\+Shape$\ast$ Sekander\+::\+Entity\+::circle\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a85af7309806860be286eb7b7fa89856e}\label{classSekander_1_1Entity_a85af7309806860be286eb7b7fa89856e}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!edge@{edge}}
+\index{edge@{edge}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{edge}{edge}}
+{\footnotesize\ttfamily b2\+Edge\+Shape$\ast$ Sekander\+::\+Entity\+::edge\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a1320e01ecadb8733a7a6204c8383bd4c}\label{classSekander_1_1Entity_a1320e01ecadb8733a7a6204c8383bd4c}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!fixture\+Def@{fixture\+Def}}
+\index{fixture\+Def@{fixture\+Def}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{fixture\+Def}{fixtureDef}}
+{\footnotesize\ttfamily b2\+Fixture\+Def$\ast$ Sekander\+::\+Entity\+::fixture\+Def\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a877b3b7b7b81c7e11cb174d1a4fc3b85}\label{classSekander_1_1Entity_a877b3b7b7b81c7e11cb174d1a4fc3b85}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!group\+Id@{group\+Id}}
+\index{group\+Id@{group\+Id}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{group\+Id}{groupId}}
+{\footnotesize\ttfamily int Sekander\+::\+Entity\+::group\+Id\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a51d32e27f0af3c9f1d68cc27117310ad}\label{classSekander_1_1Entity_a51d32e27f0af3c9f1d68cc27117310ad}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!shape@{shape}}
+\index{shape@{shape}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{shape}{shape}}
+{\footnotesize\ttfamily b2\+Polygon\+Shape$\ast$ Sekander\+::\+Entity\+::shape\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_afb04e74d48d113702c32c991accda0cc}\label{classSekander_1_1Entity_afb04e74d48d113702c32c991accda0cc}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!texture@{texture}}
+\index{texture@{texture}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily sf\+::\+Texture$\ast$ Sekander\+::\+Entity\+::texture\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a7c88f6c5a89eca36cb1204c4eaf0868e}\label{classSekander_1_1Entity_a7c88f6c5a89eca36cb1204c4eaf0868e}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!velocity@{velocity}}
+\index{velocity@{velocity}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{velocity}{velocity}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Sekander\+::\+Entity\+::velocity}
+
+\mbox{\Hypertarget{classSekander_1_1Entity_a6c88c4e735203734409fdd7b1eddca39}\label{classSekander_1_1Entity_a6c88c4e735203734409fdd7b1eddca39}} 
+\index{Sekander\+::\+Entity@{Sekander\+::\+Entity}!world@{world}}
+\index{world@{world}!Sekander\+::\+Entity@{Sekander\+::\+Entity}}
+\subsubsection{\texorpdfstring{world}{world}}
+{\footnotesize\ttfamily b2\+World$\ast$ Sekander\+::\+Entity\+::world\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/include/\hyperlink{entity_8h}{entity.\+h}\item 
+/mnt/hdd/\+C0de/\+Engines/\+S\+F\+M\+L/\+S\+F\+M\+L\+\_\+\+Engine/src/\hyperlink{entity_8cpp}{entity.\+cpp}\end{DoxyCompactItemize}

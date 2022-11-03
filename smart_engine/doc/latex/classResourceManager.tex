@@ -1,0 +1,123 @@
+\hypertarget{classResourceManager}{}\section{Resource\+Manager Class Reference}
+\label{classResourceManager}\index{Resource\+Manager@{Resource\+Manager}}
+
+
+{\ttfamily \#include $<$resource\+\_\+manager.\+h$>$}
+
+
+
+Collaboration diagram for Resource\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{classResourceManager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classShader}{Shader} $\ast$ \hyperlink{classResourceManager_a241bb97b7dfaf9939fd644ac9fbdd5b4}{Load\+Shader} (const char $\ast$v\+Shader\+File, const char $\ast$f\+Shader\+File, const char $\ast$g\+Shader\+File, std\+::string name)
+\item 
+static \hyperlink{classShader}{Shader} $\ast$ \hyperlink{classResourceManager_ae95ecdc6de1127616485f7d069437332}{Get\+Shader} (std\+::string name)
+\item 
+static \hyperlink{classTexture2D}{Texture2D} $\ast$ \hyperlink{classResourceManager_afe6ce47645a38b6e77b838c0edbe0368}{Load\+Texture} (const char $\ast$file, bool alpha, std\+::string name)
+\item 
+static \hyperlink{classTexture2D}{Texture2D} \& \hyperlink{classResourceManager_a28909ad11a419e76ef00bf6a2b00ac4f}{Get\+Texture} (std\+::string name)
+\item 
+static void \hyperlink{classResourceManager_aecd08b92634fad3316442c267a04e8c4}{Clear} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::map$<$ std\+::string, \hyperlink{classShader}{Shader} $\ast$ $>$ \hyperlink{classResourceManager_a162a5f89e9ec47ed31692bb1ce76290a}{Shaders}
+\item 
+static std\+::map$<$ std\+::string, \hyperlink{classTexture2D}{Texture2D} $\ast$ $>$ \hyperlink{classResourceManager_a0a62bc298e457b4b55d185503aa35937}{Textures}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classResourceManager_a3b32babd2e81909bbd90d7f2d566fadb}{Resource\+Manager} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classShader}{Shader} $\ast$ \hyperlink{classResourceManager_aeceee147638d827ca8b88a3dba259cb8}{load\+Shader\+From\+File} (const char $\ast$v\+Shader\+File, const char $\ast$f\+Shader\+File, const char $\ast$g\+Shader\+File=nullptr)
+\item 
+static \hyperlink{classTexture2D}{Texture2D} $\ast$ \hyperlink{classResourceManager_a6fe65aa4de1374cd7f007e564d1c1971}{load\+Texture\+From\+File} (const char $\ast$file, bool alpha)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classResourceManager_a3b32babd2e81909bbd90d7f2d566fadb}\label{classResourceManager_a3b32babd2e81909bbd90d7f2d566fadb}} 
+\index{Resource\+Manager@{Resource\+Manager}!Resource\+Manager@{Resource\+Manager}}
+\index{Resource\+Manager@{Resource\+Manager}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Resource\+Manager()}{ResourceManager()}}
+{\footnotesize\ttfamily Resource\+Manager\+::\+Resource\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classResourceManager_aecd08b92634fad3316442c267a04e8c4}\label{classResourceManager_aecd08b92634fad3316442c267a04e8c4}} 
+\index{Resource\+Manager@{Resource\+Manager}!Clear@{Clear}}
+\index{Clear@{Clear}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void Resource\+Manager\+::\+Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classResourceManager_ae95ecdc6de1127616485f7d069437332}\label{classResourceManager_ae95ecdc6de1127616485f7d069437332}} 
+\index{Resource\+Manager@{Resource\+Manager}!Get\+Shader@{Get\+Shader}}
+\index{Get\+Shader@{Get\+Shader}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Shader()}{GetShader()}}
+{\footnotesize\ttfamily \hyperlink{classShader}{Shader} $\ast$ Resource\+Manager\+::\+Get\+Shader (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classResourceManager_a28909ad11a419e76ef00bf6a2b00ac4f}\label{classResourceManager_a28909ad11a419e76ef00bf6a2b00ac4f}} 
+\index{Resource\+Manager@{Resource\+Manager}!Get\+Texture@{Get\+Texture}}
+\index{Get\+Texture@{Get\+Texture}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Texture()}{GetTexture()}}
+{\footnotesize\ttfamily \hyperlink{classTexture2D}{Texture2D} \& Resource\+Manager\+::\+Get\+Texture (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classResourceManager_a241bb97b7dfaf9939fd644ac9fbdd5b4}\label{classResourceManager_a241bb97b7dfaf9939fd644ac9fbdd5b4}} 
+\index{Resource\+Manager@{Resource\+Manager}!Load\+Shader@{Load\+Shader}}
+\index{Load\+Shader@{Load\+Shader}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Load\+Shader()}{LoadShader()}}
+{\footnotesize\ttfamily \hyperlink{classShader}{Shader} $\ast$ Resource\+Manager\+::\+Load\+Shader (\begin{DoxyParamCaption}\item[{const char $\ast$}]{v\+Shader\+File,  }\item[{const char $\ast$}]{f\+Shader\+File,  }\item[{const char $\ast$}]{g\+Shader\+File,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classResourceManager_aeceee147638d827ca8b88a3dba259cb8}\label{classResourceManager_aeceee147638d827ca8b88a3dba259cb8}} 
+\index{Resource\+Manager@{Resource\+Manager}!load\+Shader\+From\+File@{load\+Shader\+From\+File}}
+\index{load\+Shader\+From\+File@{load\+Shader\+From\+File}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{load\+Shader\+From\+File()}{loadShaderFromFile()}}
+{\footnotesize\ttfamily \hyperlink{classShader}{Shader} $\ast$ Resource\+Manager\+::load\+Shader\+From\+File (\begin{DoxyParamCaption}\item[{const char $\ast$}]{v\+Shader\+File,  }\item[{const char $\ast$}]{f\+Shader\+File,  }\item[{const char $\ast$}]{g\+Shader\+File = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classResourceManager_afe6ce47645a38b6e77b838c0edbe0368}\label{classResourceManager_afe6ce47645a38b6e77b838c0edbe0368}} 
+\index{Resource\+Manager@{Resource\+Manager}!Load\+Texture@{Load\+Texture}}
+\index{Load\+Texture@{Load\+Texture}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Load\+Texture()}{LoadTexture()}}
+{\footnotesize\ttfamily \hyperlink{classTexture2D}{Texture2D} $\ast$ Resource\+Manager\+::\+Load\+Texture (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file,  }\item[{bool}]{alpha,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classResourceManager_a6fe65aa4de1374cd7f007e564d1c1971}\label{classResourceManager_a6fe65aa4de1374cd7f007e564d1c1971}} 
+\index{Resource\+Manager@{Resource\+Manager}!load\+Texture\+From\+File@{load\+Texture\+From\+File}}
+\index{load\+Texture\+From\+File@{load\+Texture\+From\+File}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{load\+Texture\+From\+File()}{loadTextureFromFile()}}
+{\footnotesize\ttfamily \hyperlink{classTexture2D}{Texture2D} $\ast$ Resource\+Manager\+::load\+Texture\+From\+File (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file,  }\item[{bool}]{alpha }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classResourceManager_a162a5f89e9ec47ed31692bb1ce76290a}\label{classResourceManager_a162a5f89e9ec47ed31692bb1ce76290a}} 
+\index{Resource\+Manager@{Resource\+Manager}!Shaders@{Shaders}}
+\index{Shaders@{Shaders}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Shaders}{Shaders}}
+{\footnotesize\ttfamily std\+::map$<$ std\+::string, \hyperlink{classShader}{Shader} $\ast$ $>$ Resource\+Manager\+::\+Shaders\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classResourceManager_a0a62bc298e457b4b55d185503aa35937}\label{classResourceManager_a0a62bc298e457b4b55d185503aa35937}} 
+\index{Resource\+Manager@{Resource\+Manager}!Textures@{Textures}}
+\index{Textures@{Textures}!Resource\+Manager@{Resource\+Manager}}
+\subsubsection{\texorpdfstring{Textures}{Textures}}
+{\footnotesize\ttfamily std\+::map$<$ std\+::string, \hyperlink{classTexture2D}{Texture2D} $\ast$ $>$ Resource\+Manager\+::\+Textures\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/hdd/\+C0de/smart\+\_\+engine/include/\hyperlink{resource__manager_8h}{resource\+\_\+manager.\+h}\item 
+/mnt/hdd/\+C0de/smart\+\_\+engine/src/\hyperlink{resource__manager_8cpp}{resource\+\_\+manager.\+cpp}\end{DoxyCompactItemize}

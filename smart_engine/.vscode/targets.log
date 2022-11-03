@@ -1,0 +1,338 @@
+make all -f /home/fnky/C0de/smart_box2d/build -C /home/fnky/C0de/smart_box2d/build/ --print-data-base --no-builtin-variables --no-builtin-rules --question
+# make: Entering directory '/home/fnky/C0de/smart_box2d/build'
+ 
+make: *** /home/fnky/C0de/smart_box2d/build: Is a directory.  Stop.
+
+# GNU Make 4.3
+ 
+# Built for x86_64-pc-linux-gnu
+ 
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+ 
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+ 
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+ 
+# Make data base, printed on Tue May  3 03:21:48 2022
+ 
+
+# Variables
+ 
+
+ 
+# environment
+ 
+GDK_BACKEND = x11
+ 
+# environment
+ 
+LC_ALL = C
+ 
+# environment
+ 
+GNOME_SHELL_SESSION_MODE = ubuntu
+ 
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-64225cdd-5f45-4562-bedd-70c7c7062236.sock
+# environment
+VSCODE_CWD = /home/fnky
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/fnky/C0de/smart_box2d
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/fnky
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/fnky/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.ASC2K1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrRw
+# makefile
+CURDIR := /home/fnky/C0de/smart_box2d/build
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrRw
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from '/home/fnky/C0de/smart_box2d/build', line 1)
+MAKEFILE_LIST := /home/fnky/C0de/smart_box2d/build
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/fnky/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 20211
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/fnky-Peppy:@/tmp/.ICE-unix/1412,unix/fnky-Peppy:/tmp/.ICE-unix/1412
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+CLICOLOR = 1
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = ZqWnlg3Ew04k9gKyKVi3KIwg0ycf6cxyz3B4R2fiZPTpossKSBG9
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_CA:en
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/fnky/snap/code/common
+# environment
+SNAP = /snap/code/94
+# environment
+INVOCATION_ID = 195bf58e85fc44b892223590f687dafe
+# environment
+SNAP_REVISION = 94
+# environment
+SNAP_REAL_HOME = /home/fnky
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = fnky
+# environment
+GNOME_SETUP_DISPLAY = :1
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = so=0;38;5;16;48;5;203:bd=0;38;5;81;48;5;236:ex=1;38;5;203:su=0:mh=0:or=0;38;5;16;48;5;203:st=0:no=0:pi=0;38;5;16;48;5;81:cd=0;38;5;203;48;5;236:mi=0;38;5;16;48;5;203:fi=0:ow=0:rs=0:sg=0:ln=0;38;5;203:tw=0:ca=0:di=0;38;5;81:*~=0;38;5;243:do=0;38;5;16;48;5;203:*.o=0;38;5;243:*.t=0;38;5;48:*.r=0;38;5;48:*.a=1;38;5;203:*.m=0;38;5;48:*.h=0;38;5;48:*.c=0;38;5;48:*.d=0;38;5;48:*.p=0;38;5;48:*.z=4;38;5;203:*.pm=0;38;5;48:*.cr=0;38;5;48:*.hi=0;38;5;243:*.as=0;38;5;48:*.jl=0;38;5;48:*.py=0;38;5;48:*.ps=0;38;5;186:*.cs=0;38;5;48:*.xz=4;38;5;203:*.pp=0;38;5;48:*.so=1;38;5;203:*.pl=0;38;5;48:*.go=0;38;5;48:*.mn=0;38;5;48:*.rs=0;38;5;48:*.7z=4;38;5;203:*.el=0;38;5;48:*.ex=0;38;5;48:*.hh=0;38;5;48:*.ll=0;38;5;48:*.di=0;38;5;48:*.ts=0;38;5;48:*.js=0;38;5;48:*.cp=0;38;5;48:*.nb=0;38;5;48:*.md=0;38;5;185:*.rb=0;38;5;48:*.cc=0;38;5;48:*.rm=0;38;5;208:*.ko=1;38;5;203:*.wv=0;38;5;208:*.sh=0;38;5;48:*.kt=0;38;5;48:*.fs=0;38;5;48:*.bz=4;38;5;203:*.td=0;38;5;48:*css=0;38;5;48:*.la=0;38;5;243:*.hs=0;38;5;48:*.gv=0;38;5;48:*.vb=0;38;5;48:*.lo=0;38;5;243:*.ui=0;38;5;149:*.bc=0;38;5;243:*.ml=0;38;5;48:*.gz=4;38;5;203:*.ltx=0;38;5;48:*.rst=0;38;5;185:*.bat=1;38;5;203:*.ods=0;38;5;186:*.xml=0;38;5;185:*.php=0;38;5;48:*.aux=0;38;5;243:*.pas=0;38;5;48:*.asa=0;38;5;48:*.epp=0;38;5;48:*.mir=0;38;5;48:*.bak=0;38;5;243:*.mpg=0;38;5;208:*.ind=0;38;5;243:*.dox=0;38;5;149:*.psd=0;38;5;208:*.sxw=0;38;5;186:*.inc=0;38;5;48:*.kex=0;38;5;186:*.xlr=0;38;5;186:*.ico=0;38;5;208:*.ttf=0;38;5;208:*.fls=0;38;5;243:*.tcl=0;38;5;48:*.jpg=0;38;5;208:*.mkv=0;38;5;208:*.gif=0;38;5;208:*.wmv=0;38;5;208:*.pid=0;38;5;243:*.hxx=0;38;5;48:*.csx=0;38;5;48:*.csv=0;38;5;185:*.elm=0;38;5;48:*.dll=1;38;5;203:*.pgm=0;38;5;208:*.cxx=0;38;5;48:*.mov=0;38;5;208:*.fsx=0;38;5;48:*.swf=0;38;5;208:*.img=4;38;5;203:*.rar=4;38;5;203:*.pod=0;38;5;48:*.odp=0;38;5;186:*.lua=0;38;5;48:*.ipp=0;38;5;48:*.exe=1;38;5;203:*.xcf=0;38;5;208:*.bst=0;38;5;149:*.com=1;38;5;203:*.gvy=0;38;5;48:*.bbl=0;38;5;243:*.pdf=0;38;5;186:*.tar=4;38;5;203:*.pps=0;38;5;186:*.deb=4;38;5;203:*.sty=0;38;5;243:*.pyc=0;38;5;243:*.inl=0;38;5;48:*.idx=0;38;5;243:*.aif=0;38;5;208:*.ppt=0;38;5;186:*.ogg=0;38;5;208:*.pyo=0;38;5;243:*.wma=0;38;5;208:*.jar=4;38;5;203:*.out=0;38;5;243:*.zip=4;38;5;203:*.ps1=0;38;5;48:*.pyd=0;38;5;243:*.vob=0;38;5;208:*.dpr=0;38;5;48:*.c++=0;38;5;48:*.pro=0;38;5;149:*.bsh=0;38;5;48:*.zsh=0;38;5;48:*.vim=0;38;5;48:*.fon=0;38;5;208:*.dmg=4;38;5;203:*.tex=0;38;5;48:*.apk=4;38;5;203:*.m4v=0;38;5;208:*.rpm=4;38;5;203:*.pbm=0;38;5;208:*hgrc=0;38;5;149:*.avi=0;38;5;208:*.bin=4;38;5;203:*.ilg=0;38;5;243:*.erl=0;38;5;48:*.tbz=4;38;5;203:*.cpp=0;38;5;48:*.png=0;38;5;208:*.cgi=0;38;5;48:*.sql=0;38;5;48:*.h++=0;38;5;48:*.txt=0;38;5;185:*.odt=0;38;5;186:*.tsx=0;38;5;48:*.svg=0;38;5;208:*.arj=4;38;5;203:*.tmp=0;38;5;243:*.rtf=0;38;5;186:*.bag=4;38;5;203:*.mli=0;38;5;48:*.vcd=4;38;5;203:*.wav=0;38;5;208:*.kts=0;38;5;48:*.bcf=0;38;5;243:*.yml=0;38;5;149:*.fsi=0;38;5;48:*.iso=4;38;5;203:*.blg=0;38;5;243:*.fnt=0;38;5;208:*.xmp=0;38;5;149:*TODO=1:*.ics=0;38;5;186:*.sxi=0;38;5;186:*.mp3=0;38;5;208:*.git=0;38;5;243:*.tif=0;38;5;208:*.doc=0;38;5;186:*.toc=0;38;5;243:*.eps=0;38;5;208:*.ppm=0;38;5;208:*.exs=0;38;5;48:*.flv=0;38;5;208:*.otf=0;38;5;208:*.tgz=4;38;5;203:*.bib=0;38;5;149:*.zst=4;38;5;203:*.htm=0;38;5;185:*.tml=0;38;5;149:*.hpp=0;38;5;48:*.awk=0;38;5;48:*.sbt=0;38;5;48:*.htc=0;38;5;48:*.ini=0;38;5;149:*.log=0;38;5;243:*.swp=0;38;5;243:*.cfg=0;38;5;149:*.def=0;38;5;48:*.bmp=0;38;5;208:*.xls=0;38;5;186:*.nix=0;38;5;149:*.dot=0;38;5;48:*.bz2=4;38;5;203:*.clj=0;38;5;48:*.mid=0;38;5;208:*.pkg=4;38;5;203:*.mp4=0;38;5;208:*.m4a=0;38;5;208:*.diff=0;38;5;48:*.lisp=0;38;5;48:*.rlib=0;38;5;243:*.jpeg=0;38;5;208:*.h264=0;38;5;208:*.opus=0;38;5;208:*.make=0;38;5;149:*.pptx=0;38;5;186:*.dart=0;38;5;48:*.conf=0;38;5;149:*.tiff=0;38;5;208:*.flac=0;38;5;208:*.java=0;38;5;48:*.orig=0;38;5;243:*.psm1=0;38;5;48:*.tbz2=4;38;5;203:*.fish=0;38;5;48:*.toml=0;38;5;149:*.epub=0;38;5;186:*.lock=0;38;5;243:*.less=0;38;5;48:*.purs=0;38;5;48:*.hgrc=0;38;5;149:*.xlsx=0;38;5;186:*.docx=0;38;5;186:*.bash=0;38;5;48:*.mpeg=0;38;5;208:*.html=0;38;5;185:*.json=0;38;5;149:*.psd1=0;38;5;48:*.webm=0;38;5;208:*.yaml=0;38;5;149:*.scala=0;38;5;48:*.xhtml=0;38;5;185:*.swift=0;38;5;48:*.mdown=0;38;5;185:*.shtml=0;38;5;185:*.ipynb=0;38;5;48:*.cmake=0;38;5;149:*shadow=0;38;5;149:*README=0;38;5;16;48;5;186:*.toast=4;38;5;203:*.dyn_o=0;38;5;243:*passwd=0;38;5;149:*.class=0;38;5;243:*.patch=0;38;5;48:*.cabal=0;38;5;48:*.cache=0;38;5;243:*.groovy=0;38;5;48:*.flake8=0;38;5;149:*LICENSE=0;38;5;249:*.ignore=0;38;5;149:*.matlab=0;38;5;48:*COPYING=0;38;5;249:*TODO.md=1:*.config=0;38;5;149:*INSTALL=0;38;5;16;48;5;186:*.gradle=0;38;5;48:*.dyn_hi=0;38;5;243:*.gemspec=0;38;5;149:*.desktop=0;38;5;149:*Doxyfile=0;38;5;149:*Makefile=0;38;5;149:*setup.py=0;38;5;149:*TODO.txt=1:*.markdown=0;38;5;185:*.rgignore=0;38;5;149:*README.md=0;38;5;16;48;5;186:*COPYRIGHT=0;38;5;249:*.kdevelop=0;38;5;149:*configure=0;38;5;149:*.DS_Store=0;38;5;243:*.cmake.in=0;38;5;149:*.fdignore=0;38;5;149:*.scons_opt=0;38;5;243:*README.txt=0;38;5;16;48;5;186:*.localized=0;38;5;243:*.gitignore=0;38;5;149:*SConscript=0;38;5;149:*SConstruct=0;38;5;149:*.gitconfig=0;38;5;149:*INSTALL.md=0;38;5;16;48;5;186:*CODEOWNERS=0;38;5;149:*Dockerfile=0;38;5;149:*.gitmodules=0;38;5;149:*INSTALL.txt=0;38;5;16;48;5;186:*MANIFEST.in=0;38;5;149:*.synctex.gz=0;38;5;243:*Makefile.in=0;38;5;243:*Makefile.am=0;38;5;149:*.travis.yml=0;38;5;186:*LICENSE-MIT=0;38;5;249:*CONTRIBUTORS=0;38;5;16;48;5;186:*appveyor.yml=0;38;5;186:*.fdb_latexmk=0;38;5;243:*configure.ac=0;38;5;149:*.applescript=0;38;5;48:*.clang-format=0;38;5;149:*.gitattributes=0;38;5;149:*LICENSE-APACHE=0;38;5;249:*CMakeLists.txt=0;38;5;149:*CMakeCache.txt=0;38;5;243:*CONTRIBUTORS.md=0;38;5;16;48;5;186:*CONTRIBUTORS.txt=0;38;5;16;48;5;186:*requirements.txt=0;38;5;149:*.sconsign.dblite=0;38;5;243:*package-lock.json=0;38;5;243:*.CFUserTextEncoding=0;38;5;243
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = fnky
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SYSTEMD_EXEC_PID = 1436
+# environment
+DISPLAY = :0
+# environment
+USER = fnky
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/94
+# environment
+SNAP_CONTEXT = ZqWnlg3Ew04k9gKyKVi3KIwg0ycf6cxyz3B4R2fiZPTpossKSBG9
+# environment
+MANAGERPID = 1337
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 20166
+# environment
+PAGER = less
+# environment
+_ = /snap/code/94/usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/fnky/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:30531
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/fnky
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-37197283-1.66.2-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/94/usr/share/glib-2.0/schemas
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = dfd34e82
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+SNAP_USER_DATA = /home/fnky/snap/code/94
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=124/1024=12%, Rehash=0, Collisions=5/137=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+/home/fnky/C0de/smart_box2d/build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+ 
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/5=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 7 / storage = 124 B / avg = 17 B
+ 
+# current buf: size = 8162 B / used = 124 B / count = 7 / avg = 17 B
+
+# strcache performance: lookups = 10 / hit rate = 30%
+# hash-table stats:
+# Load=7/8192=0%, Rehash=0, Collisions=0/10=0%
+# Finished Make data base on Tue May  3 03:21:48 2022
+
+# make: Leaving directory '/home/fnky/C0de/smart_box2d/build'
+ 

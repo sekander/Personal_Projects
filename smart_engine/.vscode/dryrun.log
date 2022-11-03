@@ -1,0 +1,6 @@
+make -f /home/fnky/C0de/smart_box2d/build -C /home/fnky/C0de/smart_box2d/build/ --dry-run --keep-going --print-directory
+make: Entering directory '/home/fnky/C0de/smart_box2d/build'
+make: Leaving directory '/home/fnky/C0de/smart_box2d/build'
+ 
+make: *** /home/fnky/C0de/smart_box2d/build: Is a directory.  Stop.
+

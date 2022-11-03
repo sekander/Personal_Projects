@@ -1,0 +1,333 @@
+\hypertarget{classEntity}{}\section{Entity Class Reference}
+\label{classEntity}\index{Entity@{Entity}}
+
+
+{\ttfamily \#include $<$entity.\+h$>$}
+
+
+
+Inheritance diagram for Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classEntity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classEntity__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classEntity_a921d3ec8d8b5f758f82af131847b6edb}{Entity} (std\+::shared\+\_\+ptr$<$ b2\+World $>$ \hyperlink{classEntity_a83af93b5af6170706ebedb406caae509}{world})
+\item 
+void \hyperlink{classEntity_a2102aef307a324ec71ab31de73e52ee9}{Load} (const std\+::string \hyperlink{classEntity_a6a4de89770f168dbe6134fec0c5f2ad1}{filename}, bool dynamic, const std\+::string key, bool sprite\+\_\+sheet, bool change\+\_\+frames, bool set\+\_\+physics, const unsigned int x, const unsigned int y, float \hyperlink{classEntity_a97cf0dd2b95f85c3f611c30f7a9fbf68}{incrementer}, glm\+::vec2 pos, glm\+::vec2 \hyperlink{classEntity_a4cac664de0560de978d85456f5426baa}{size}, float rotation, glm\+::vec3 \hyperlink{classEntity_a688dc0de5b453c60a542a4dbdf06322e}{color})
+\item 
+void \hyperlink{classEntity_a7fefffa6364b37cda22e713ab316fcc5}{Create\+Edeg} (float, float, float, float)
+\item 
+void \hyperlink{classEntity_af26655d5ca92e2a075940fc17fe68b1f}{Create\+Edeg} ()
+\item 
+void \hyperlink{classEntity_af0befbcbae6115851975d763e7dda312}{Draw} ()
+\item 
+bool \hyperlink{classEntity_a4417060da59c34999fe3f0b912cacd16}{Update} ()
+\item 
+bool \hyperlink{classEntity_a3c39519c4beb655b319767606413b7d6}{Check\+Collision} (\hyperlink{classEntity}{Entity} $\ast$entity)
+\item 
+int \hyperlink{classEntity_af4549ca1382aea2706101bc26b749d47}{Group\+ID} ()
+\item 
+int \hyperlink{classEntity_ae71d6f69f40deb56a6357bb4bf750091}{Active} ()
+\item 
+void \hyperlink{classEntity_a5910a6f56586f89d31b34f175ad29ea1}{Delete\+Shape} ()
+\item 
+void \hyperlink{classEntity_aa75151fc607686b42d27f8c3ba73143d}{Destroy} ()
+\item 
+void \hyperlink{classEntity_ad940b54ddb93e1b2cc72012589576478}{Enable} ()
+\item 
+\hyperlink{classEntity_adf6d3f7cb1b2ba029b6b048a395cc8ae}{$\sim$\+Entity} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+b2\+Body $\ast$ \hyperlink{classEntity_a2b6ad094dc400a22a508aaccd956f9fd}{body}
+\item 
+std\+::string \hyperlink{classEntity_a6a4de89770f168dbe6134fec0c5f2ad1}{filename}
+\item 
+std\+::string \hyperlink{classEntity_a931b21fbdebb1a5963b4bcab5df128f5}{name}
+\item 
+bool \hyperlink{classEntity_a173e8f73ab7942235c1c3a4a1f4c40b0}{i\+\_\+am\+\_\+a\+\_\+sprite\+\_\+sheet}
+\item 
+bool \hyperlink{classEntity_a319afd83a878db68e6de473418e9a1f3}{change\+\_\+frame}
+\item 
+unsigned int \hyperlink{classEntity_ae38d1819b321f27f5771bf6d21af3c6f}{x\+\_\+frame}
+\item 
+unsigned int \hyperlink{classEntity_a778391410b1ff1f89fd6f06c8b636072}{y\+\_\+frame}
+\item 
+float \hyperlink{classEntity_a97cf0dd2b95f85c3f611c30f7a9fbf68}{incrementer}
+\item 
+glm\+::vec2 \hyperlink{classEntity_a01a4c7bdc113c1cbec8326a3f8d7d452}{position}
+\item 
+glm\+::vec2 \hyperlink{classEntity_a4cac664de0560de978d85456f5426baa}{size} = glm\+::vec2(10.\+0f, 10.\+0f)
+\item 
+float \hyperlink{classEntity_ad0baaae3c8c1c760bceb2e2c8676842b}{rotate} = 0.\+0f
+\item 
+glm\+::vec3 \hyperlink{classEntity_a688dc0de5b453c60a542a4dbdf06322e}{color} = glm\+::vec3(1.\+0f)
+\item 
+int \hyperlink{classEntity_a806d820393849740ea10917ef5a7f427}{frame}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classEntity_aeb5d37f9e2951abb86bb82f1875438a7}{active}
+\item 
+int \hyperlink{classEntity_a3caf6ab17eedfd51abe34e636ef9511f}{group\+Id}
+\item 
+std\+::shared\+\_\+ptr$<$ b2\+World $>$ \hyperlink{classEntity_a83af93b5af6170706ebedb406caae509}{world}
+\item 
+b2\+Body\+Def $\ast$ \hyperlink{classEntity_a84add379cdb92213cb236ea740a9c255}{body\+Def}
+\item 
+b2\+Polygon\+Shape $\ast$ \hyperlink{classEntity_ab8d8aadc7e72bc705718982d4804f491}{shape}
+\item 
+b2\+Edge\+Shape $\ast$ \hyperlink{classEntity_a0da995c93abd009e3a35bfb173526eaf}{edge}
+\item 
+b2\+Circle\+Shape $\ast$ \hyperlink{classEntity_aff413506dfd893191af8732c9acf28b0}{circle}
+\item 
+b2\+Fixture\+Def $\ast$ \hyperlink{classEntity_ac4eb27d6eca629016575130b40273a4b}{fixture\+Def}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTexture2D}{Texture2D} $\ast$ \hyperlink{classEntity_a890913a7b3f4099622615ef0d589df77}{texture}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEntity_a921d3ec8d8b5f758f82af131847b6edb}\label{classEntity_a921d3ec8d8b5f758f82af131847b6edb}} 
+\index{Entity@{Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Entity()}{Entity()}}
+{\footnotesize\ttfamily Entity\+::\+Entity (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ b2\+World $>$}]{world }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_adf6d3f7cb1b2ba029b6b048a395cc8ae}\label{classEntity_adf6d3f7cb1b2ba029b6b048a395cc8ae}} 
+\index{Entity@{Entity}!````~Entity@{$\sim$\+Entity}}
+\index{````~Entity@{$\sim$\+Entity}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{$\sim$\+Entity()}{~Entity()}}
+{\footnotesize\ttfamily Entity\+::$\sim$\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classEntity_ae71d6f69f40deb56a6357bb4bf750091}\label{classEntity_ae71d6f69f40deb56a6357bb4bf750091}} 
+\index{Entity@{Entity}!Active@{Active}}
+\index{Active@{Active}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Active()}{Active()}}
+{\footnotesize\ttfamily int Entity\+::\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classEntity_a3c39519c4beb655b319767606413b7d6}\label{classEntity_a3c39519c4beb655b319767606413b7d6}} 
+\index{Entity@{Entity}!Check\+Collision@{Check\+Collision}}
+\index{Check\+Collision@{Check\+Collision}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Check\+Collision()}{CheckCollision()}}
+{\footnotesize\ttfamily bool Entity\+::\+Check\+Collision (\begin{DoxyParamCaption}\item[{\hyperlink{classEntity}{Entity} $\ast$}]{entity }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_a7fefffa6364b37cda22e713ab316fcc5}\label{classEntity_a7fefffa6364b37cda22e713ab316fcc5}} 
+\index{Entity@{Entity}!Create\+Edeg@{Create\+Edeg}}
+\index{Create\+Edeg@{Create\+Edeg}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Create\+Edeg()}{CreateEdeg()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Entity\+::\+Create\+Edeg (\begin{DoxyParamCaption}\item[{float}]{x\+\_\+point\+\_\+origin,  }\item[{float}]{y\+\_\+point\+\_\+origin,  }\item[{float}]{x\+\_\+point\+\_\+dest,  }\item[{float}]{y\+\_\+point\+\_\+dest }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_af26655d5ca92e2a075940fc17fe68b1f}\label{classEntity_af26655d5ca92e2a075940fc17fe68b1f}} 
+\index{Entity@{Entity}!Create\+Edeg@{Create\+Edeg}}
+\index{Create\+Edeg@{Create\+Edeg}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Create\+Edeg()}{CreateEdeg()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Entity\+::\+Create\+Edeg (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_a5910a6f56586f89d31b34f175ad29ea1}\label{classEntity_a5910a6f56586f89d31b34f175ad29ea1}} 
+\index{Entity@{Entity}!Delete\+Shape@{Delete\+Shape}}
+\index{Delete\+Shape@{Delete\+Shape}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Delete\+Shape()}{DeleteShape()}}
+{\footnotesize\ttfamily void Entity\+::\+Delete\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classEntity_aa75151fc607686b42d27f8c3ba73143d}\label{classEntity_aa75151fc607686b42d27f8c3ba73143d}} 
+\index{Entity@{Entity}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Destroy()}{Destroy()}}
+{\footnotesize\ttfamily void Entity\+::\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_af0befbcbae6115851975d763e7dda312}\label{classEntity_af0befbcbae6115851975d763e7dda312}} 
+\index{Entity@{Entity}!Draw@{Draw}}
+\index{Draw@{Draw}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Entity\+::\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_ad940b54ddb93e1b2cc72012589576478}\label{classEntity_ad940b54ddb93e1b2cc72012589576478}} 
+\index{Entity@{Entity}!Enable@{Enable}}
+\index{Enable@{Enable}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Enable()}{Enable()}}
+{\footnotesize\ttfamily void Entity\+::\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_af4549ca1382aea2706101bc26b749d47}\label{classEntity_af4549ca1382aea2706101bc26b749d47}} 
+\index{Entity@{Entity}!Group\+ID@{Group\+ID}}
+\index{Group\+ID@{Group\+ID}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Group\+I\+D()}{GroupID()}}
+{\footnotesize\ttfamily int Entity\+::\+Group\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classEntity_a2102aef307a324ec71ab31de73e52ee9}\label{classEntity_a2102aef307a324ec71ab31de73e52ee9}} 
+\index{Entity@{Entity}!Load@{Load}}
+\index{Load@{Load}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Load()}{Load()}}
+{\footnotesize\ttfamily void Entity\+::\+Load (\begin{DoxyParamCaption}\item[{const std\+::string}]{filename,  }\item[{bool}]{dynamic,  }\item[{const std\+::string}]{key,  }\item[{bool}]{sprite\+\_\+sheet,  }\item[{bool}]{change\+\_\+frames,  }\item[{bool}]{set\+\_\+physics,  }\item[{const unsigned int}]{x,  }\item[{const unsigned int}]{y,  }\item[{float}]{incrementer,  }\item[{glm\+::vec2}]{pos,  }\item[{glm\+::vec2}]{size,  }\item[{float}]{rotation,  }\item[{glm\+::vec3}]{color }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classEntity_a4417060da59c34999fe3f0b912cacd16}\label{classEntity_a4417060da59c34999fe3f0b912cacd16}} 
+\index{Entity@{Entity}!Update@{Update}}
+\index{Update@{Update}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily bool Entity\+::\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classEntity_aeb5d37f9e2951abb86bb82f1875438a7}\label{classEntity_aeb5d37f9e2951abb86bb82f1875438a7}} 
+\index{Entity@{Entity}!active@{active}}
+\index{active@{active}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily int Entity\+::active\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_a2b6ad094dc400a22a508aaccd956f9fd}\label{classEntity_a2b6ad094dc400a22a508aaccd956f9fd}} 
+\index{Entity@{Entity}!body@{body}}
+\index{body@{body}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{body}{body}}
+{\footnotesize\ttfamily b2\+Body$\ast$ Entity\+::body}
+
+\mbox{\Hypertarget{classEntity_a84add379cdb92213cb236ea740a9c255}\label{classEntity_a84add379cdb92213cb236ea740a9c255}} 
+\index{Entity@{Entity}!body\+Def@{body\+Def}}
+\index{body\+Def@{body\+Def}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{body\+Def}{bodyDef}}
+{\footnotesize\ttfamily b2\+Body\+Def$\ast$ Entity\+::body\+Def\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_a319afd83a878db68e6de473418e9a1f3}\label{classEntity_a319afd83a878db68e6de473418e9a1f3}} 
+\index{Entity@{Entity}!change\+\_\+frame@{change\+\_\+frame}}
+\index{change\+\_\+frame@{change\+\_\+frame}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{change\+\_\+frame}{change\_frame}}
+{\footnotesize\ttfamily bool Entity\+::change\+\_\+frame}
+
+\mbox{\Hypertarget{classEntity_aff413506dfd893191af8732c9acf28b0}\label{classEntity_aff413506dfd893191af8732c9acf28b0}} 
+\index{Entity@{Entity}!circle@{circle}}
+\index{circle@{circle}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{circle}{circle}}
+{\footnotesize\ttfamily b2\+Circle\+Shape$\ast$ Entity\+::circle\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_a688dc0de5b453c60a542a4dbdf06322e}\label{classEntity_a688dc0de5b453c60a542a4dbdf06322e}} 
+\index{Entity@{Entity}!color@{color}}
+\index{color@{color}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily glm\+::vec3 Entity\+::color = glm\+::vec3(1.\+0f)}
+
+\mbox{\Hypertarget{classEntity_a0da995c93abd009e3a35bfb173526eaf}\label{classEntity_a0da995c93abd009e3a35bfb173526eaf}} 
+\index{Entity@{Entity}!edge@{edge}}
+\index{edge@{edge}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{edge}{edge}}
+{\footnotesize\ttfamily b2\+Edge\+Shape$\ast$ Entity\+::edge\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_a6a4de89770f168dbe6134fec0c5f2ad1}\label{classEntity_a6a4de89770f168dbe6134fec0c5f2ad1}} 
+\index{Entity@{Entity}!filename@{filename}}
+\index{filename@{filename}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{filename}{filename}}
+{\footnotesize\ttfamily std\+::string Entity\+::filename}
+
+\mbox{\Hypertarget{classEntity_ac4eb27d6eca629016575130b40273a4b}\label{classEntity_ac4eb27d6eca629016575130b40273a4b}} 
+\index{Entity@{Entity}!fixture\+Def@{fixture\+Def}}
+\index{fixture\+Def@{fixture\+Def}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{fixture\+Def}{fixtureDef}}
+{\footnotesize\ttfamily b2\+Fixture\+Def$\ast$ Entity\+::fixture\+Def\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_a806d820393849740ea10917ef5a7f427}\label{classEntity_a806d820393849740ea10917ef5a7f427}} 
+\index{Entity@{Entity}!frame@{frame}}
+\index{frame@{frame}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{frame}{frame}}
+{\footnotesize\ttfamily int Entity\+::frame}
+
+\mbox{\Hypertarget{classEntity_a3caf6ab17eedfd51abe34e636ef9511f}\label{classEntity_a3caf6ab17eedfd51abe34e636ef9511f}} 
+\index{Entity@{Entity}!group\+Id@{group\+Id}}
+\index{group\+Id@{group\+Id}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{group\+Id}{groupId}}
+{\footnotesize\ttfamily int Entity\+::group\+Id\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_a173e8f73ab7942235c1c3a4a1f4c40b0}\label{classEntity_a173e8f73ab7942235c1c3a4a1f4c40b0}} 
+\index{Entity@{Entity}!i\+\_\+am\+\_\+a\+\_\+sprite\+\_\+sheet@{i\+\_\+am\+\_\+a\+\_\+sprite\+\_\+sheet}}
+\index{i\+\_\+am\+\_\+a\+\_\+sprite\+\_\+sheet@{i\+\_\+am\+\_\+a\+\_\+sprite\+\_\+sheet}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{i\+\_\+am\+\_\+a\+\_\+sprite\+\_\+sheet}{i\_am\_a\_sprite\_sheet}}
+{\footnotesize\ttfamily bool Entity\+::i\+\_\+am\+\_\+a\+\_\+sprite\+\_\+sheet}
+
+\mbox{\Hypertarget{classEntity_a97cf0dd2b95f85c3f611c30f7a9fbf68}\label{classEntity_a97cf0dd2b95f85c3f611c30f7a9fbf68}} 
+\index{Entity@{Entity}!incrementer@{incrementer}}
+\index{incrementer@{incrementer}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{incrementer}{incrementer}}
+{\footnotesize\ttfamily float Entity\+::incrementer}
+
+\mbox{\Hypertarget{classEntity_a931b21fbdebb1a5963b4bcab5df128f5}\label{classEntity_a931b21fbdebb1a5963b4bcab5df128f5}} 
+\index{Entity@{Entity}!name@{name}}
+\index{name@{name}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily std\+::string Entity\+::name}
+
+\mbox{\Hypertarget{classEntity_a01a4c7bdc113c1cbec8326a3f8d7d452}\label{classEntity_a01a4c7bdc113c1cbec8326a3f8d7d452}} 
+\index{Entity@{Entity}!position@{position}}
+\index{position@{position}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily glm\+::vec2 Entity\+::position}
+
+\mbox{\Hypertarget{classEntity_ad0baaae3c8c1c760bceb2e2c8676842b}\label{classEntity_ad0baaae3c8c1c760bceb2e2c8676842b}} 
+\index{Entity@{Entity}!rotate@{rotate}}
+\index{rotate@{rotate}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{rotate}{rotate}}
+{\footnotesize\ttfamily float Entity\+::rotate = 0.\+0f}
+
+\mbox{\Hypertarget{classEntity_ab8d8aadc7e72bc705718982d4804f491}\label{classEntity_ab8d8aadc7e72bc705718982d4804f491}} 
+\index{Entity@{Entity}!shape@{shape}}
+\index{shape@{shape}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{shape}{shape}}
+{\footnotesize\ttfamily b2\+Polygon\+Shape$\ast$ Entity\+::shape\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_a4cac664de0560de978d85456f5426baa}\label{classEntity_a4cac664de0560de978d85456f5426baa}} 
+\index{Entity@{Entity}!size@{size}}
+\index{size@{size}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily glm\+::vec2 Entity\+::size = glm\+::vec2(10.\+0f, 10.\+0f)}
+
+\mbox{\Hypertarget{classEntity_a890913a7b3f4099622615ef0d589df77}\label{classEntity_a890913a7b3f4099622615ef0d589df77}} 
+\index{Entity@{Entity}!texture@{texture}}
+\index{texture@{texture}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily \hyperlink{classTexture2D}{Texture2D}$\ast$ Entity\+::texture\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classEntity_a83af93b5af6170706ebedb406caae509}\label{classEntity_a83af93b5af6170706ebedb406caae509}} 
+\index{Entity@{Entity}!world@{world}}
+\index{world@{world}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{world}{world}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$b2\+World$>$ Entity\+::world\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classEntity_ae38d1819b321f27f5771bf6d21af3c6f}\label{classEntity_ae38d1819b321f27f5771bf6d21af3c6f}} 
+\index{Entity@{Entity}!x\+\_\+frame@{x\+\_\+frame}}
+\index{x\+\_\+frame@{x\+\_\+frame}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{x\+\_\+frame}{x\_frame}}
+{\footnotesize\ttfamily unsigned int Entity\+::x\+\_\+frame}
+
+\mbox{\Hypertarget{classEntity_a778391410b1ff1f89fd6f06c8b636072}\label{classEntity_a778391410b1ff1f89fd6f06c8b636072}} 
+\index{Entity@{Entity}!y\+\_\+frame@{y\+\_\+frame}}
+\index{y\+\_\+frame@{y\+\_\+frame}!Entity@{Entity}}
+\subsubsection{\texorpdfstring{y\+\_\+frame}{y\_frame}}
+{\footnotesize\ttfamily unsigned int Entity\+::y\+\_\+frame}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/hdd/\+C0de/smart\+\_\+engine/include/\hyperlink{entity_8h}{entity.\+h}\item 
+/mnt/hdd/\+C0de/smart\+\_\+engine/src/\hyperlink{entity_8cpp}{entity.\+cpp}\end{DoxyCompactItemize}
