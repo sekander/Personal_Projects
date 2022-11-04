@@ -1,16 +1,16 @@
 # Personal_Projects
 
-<h1>SFML Engine</h1>
+<h2>SFML Engine</h2>
 
 
 
-<h1>Box2D Engine</h1>
+<h2>Box2D Engine</h2>
 
 
 
-<h1>Smart Engine</h1>
+<h2>Smart Engine</h2>
 
 
 
-<h1>Component Engine</h1>
+<h2>Component Engine</h2>
 
