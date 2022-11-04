@@ -670,7 +670,7 @@ namespace Sekander
 										{
 											if(some.second->CheckCollision(e_bullet.first))
 											{
-												std::cout << "OUCH!!!!" << std::endl;
+												//std::cout << "OUCH!!!!" << std::endl;
 
 													this->_data->manager.Get(e_bullet.first)->body->SetTransform(b2Vec2(-2000, -900) ,0);
 													this->_data->manager.Get(e_bullet.first)->body->SetEnabled(false);
@@ -885,7 +885,7 @@ namespace Sekander
 													if(enemy_object.second->get_attack_square().getGlobalBounds().contains
 													  (this->_data->manager.Get("red")->getPosition()))
 													{
-														std::cout << "I SEE YOU !!!!!!!!!!" << std::endl;
+														//std::cout << "I SEE YOU !!!!!!!!!!" << std::endl;
 														//enemy_object.second->Shooting(*gun.second, bullet_list);
 														enemy_object.second->Shooting(*gun.second, bullet_list);
 

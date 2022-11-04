@@ -86,7 +86,9 @@ namespace Sekander
 
 
 		//Conncet();
-		//Conncet();
+		Conncet();
+	
+	/*	
 	std::ifstream readFile;
 	readFile.open(HIGH_SCORE_FILEPATH);
 
@@ -115,6 +117,7 @@ namespace Sekander
 		}
 
 	writeFile.close();
+	*/
 
 
 		this->_data->assets.LoadTexture("Game Over Background", GAME_OVER_BACKGROUND_FILEPATH);

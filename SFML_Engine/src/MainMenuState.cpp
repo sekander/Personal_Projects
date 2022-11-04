@@ -235,7 +235,7 @@ namespace Sekander
 		//Update Box2d objects
 
 		sf::View main_view = _data->window.getDefaultView();
-		std::cout << "Testing \n"; 
+		//std::cout << "Testing \n"; 
 		int starting = 0;
 		
 		if(!_max)

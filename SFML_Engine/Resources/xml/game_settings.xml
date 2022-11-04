@@ -79,7 +79,7 @@
 		
 
 
-
+<!--
 
 				<param  key=host
 		   		file_name="Resources/res/host.jpg"
@@ -122,6 +122,7 @@
 		    	sprite_ANGLE=0
 	    		/>
 
+-->
 
 				<param  key=exit
 		   		file_name="Resources/res/Exit_button.png"

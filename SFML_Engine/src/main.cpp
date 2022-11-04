@@ -4,7 +4,7 @@
 int main(int argc, char* argv[])
 {
 
-		Sekander::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Game Engine",true, "Resources/xml/game_settings.xml");
+		Sekander::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Game Engine",false, "Resources/xml/game_settings.xml");
 
 		/*
 	for (int i=1; i<argc; i++)

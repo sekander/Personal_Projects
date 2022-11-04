@@ -118,8 +118,8 @@ namespace Sekander
 			std::cout << "Trying to connect ... " << std::endl;
 			if(!connection_established)
 			{
-				sf::Socket::Status status = socket->connect("192.168.0.132", 53001);
-		//		sf::Socket::Status status = socket->connect("127.0.0.1", 53001);
+		//		sf::Socket::Status status = socket->connect("192.168.0.132", 53001);
+				sf::Socket::Status status = socket->connect("127.0.0.1", 53001);
 				if (status != sf::Socket::Done)
 				{
 				    // error...

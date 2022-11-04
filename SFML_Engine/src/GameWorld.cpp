@@ -502,11 +502,11 @@ namespace Sekander
 			 {
 				//SetPlayerState(BIRD_STATE_FLYING);
                                // key_released = false;
-                                std::cout << "//Got pressedGot pressed Got pressed  Got pressed    Got pressed    Got pressed    Got pressed    Got pressed" 
+                                //std::cout << "//Got pressedGot pressed Got pressed  Got pressed    Got pressed    Got pressed    Got pressed    Got pressed" 
                                           //<< "\nKEY_STATUS :: "   << key_released 
-                                          << "\nCURRENT_STATUS :: "   << currentState 
-                                          << "\nCOUNTER :: "   << counter 
-                                          << std::endl;
+                                  //        << "\nCURRENT_STATUS :: "   << currentState 
+                                    //      << "\nCOUNTER :: "   << counter 
+                                      //    << std::endl;
 
                                 //lastState = true;
                              //   is_key_pressed = true;
@@ -522,10 +522,10 @@ namespace Sekander
 				
 				//SetPlayerState(BIRD_STATE_STILL);
                               //  key_released = true;	
-                                std::cout << "//Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased"
+                                //std::cout << "//Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased Got RRRRRreleased"
                                           //<< "\nKEY_STATUS :: "   << key_released 
-                                          << "\nCURRENT_STATUS :: "   << currentState 
-                                          << std::endl;
+                                  //        << "\nCURRENT_STATUS :: "   << currentState 
+                                    //      << std::endl;
 
                         //return currentState;
 		}

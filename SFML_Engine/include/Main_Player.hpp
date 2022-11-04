@@ -150,16 +150,16 @@ namespace Sekander
                         						b2Contact* c = ce->contact;
                         						if(c->IsTouching())
                         						{
-                        		        			std::cout << "PLAYER : " << this->m_key 
-                        		        			<< "TOUCHING THE FLOOO00000RRRRR" << std::endl;
+                        		        			//std::cout << "PLAYER : " << this->m_key 
+                        		        			//<< "TOUCHING THE FLOOO00000RRRRR" << std::endl;
 										this->can_i_jump = true;
                         		        			//this->m_OnFloor = true;
                         		        			//this->m_In_the_Air = false;
                         						}
                         						else {
                                 
-                                					std::cout << "PLAYER IS NOTTTT : " << this->m_key 
-                                					<< "TOUCHING THE FLOOO00000RRRRR" << std::endl;
+                                					//std::cout << "PLAYER IS NOTTTT : " << this->m_key 
+                                					//<< "TOUCHING THE FLOOO00000RRRRR" << std::endl;
 									this->can_i_jump = false;
 
                                 					//this->m_OnFloor = false;
@@ -219,27 +219,27 @@ namespace Sekander
 				
 							this->_data->manager.Get(this->m_key)->
 							setColor(sf::Color(255, 255, 255, 255));
-							std::cout <<" Level 1" << std::endl;
+							//std::cout <<" Level 1" << std::endl;
 				//			sleep(500);
 	
 							this->_data->manager.Get(this->m_key)->
 							setColor(sf::Color(255, 255, 255, 150));
-							std::cout <<" Level 2" << std::endl;
+							//std::cout <<" Level 2" << std::endl;
 				//			sleep(500);
 
 							this->_data->manager.Get(this->m_key)->
 							setTextureRect(sf::IntRect(0,0,0,0));
-							std::cout <<" Level 3" << std::endl;
+							//std::cout <<" Level 3" << std::endl;
 				//			sleep(500);
 
 							this->_data->manager.Get(this->m_key)->
 							setColor(sf::Color(255, 255, 255, 150));
-							std::cout <<" Level 4" << std::endl;
+							//std::cout <<" Level 4" << std::endl;
 				//			sleep(500);
 
 							this->_data->manager.Get(this->m_key)->
 							setColor(sf::Color(255, 255, 255, 255));
-							std::cout <<" Level 5" << std::endl;
+							//std::cout <<" Level 5" << std::endl;
 				//			sleep(500);
 
 							
@@ -299,8 +299,8 @@ namespace Sekander
 
 
 
-					std::cout << "Capture Time Befoe : " << _clock.getElapsedTime().asSeconds() <<
-					std::endl; 
+					//std::cout << "Capture Time Befoe : " << _clock.getElapsedTime().asSeconds() <<
+					//std::endl; 
 
 
 					//capture_time = 0;
