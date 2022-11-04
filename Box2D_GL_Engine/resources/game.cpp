@@ -286,7 +286,7 @@ int main()
 								false,
 								false,
 								1, 1, 0,
-								glm::vec2(200.0f, 1000.0f),	//Origin 
+								glm::vec2(200.0f, 100.0f),	//Origin 
 								glm::vec2(512, 512), 	//Image size
 								0.0f);
 
@@ -407,27 +407,27 @@ void processInput(GLFWwindow *window)
 
     if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
     {
-	    x_cam -=5;
+	    x_cam +=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     }
     if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
     {
-	    x_cam +=5;
+	    x_cam -=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     	//ResourceManager::GetShader("sprite").SetMatrix4("projection", o_cam->return_matrix());
     }
     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
     {
-	    y_cam +=1;
+	    y_cam -=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "Y cam : " << y_cam  << std::endl;
     	//ResourceManager::GetShader("sprite").SetMatrix4("projection", o_cam->return_matrix());
     }
     if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
     {
-	    y_cam -=1;
+	    y_cam +=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "Y cam : " << y_cam  << std::endl;
     	//ResourceManager::GetShader("sprite").SetMatrix4("projection", o_cam->return_matrix());

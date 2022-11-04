@@ -15,18 +15,6 @@ void Texture2D::Generate(unsigned int width, unsigned int height, unsigned char*
     this->Width = width;
     this->Height = height;
     // create Texture
-    //
-    //
-glEnable(GL_LINE_SMOOTH);
-glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
-glEnable(GL_LINE_SMOOTH_HINT );
-//glHint(GL_POINT_);
-//glEnableClientState(GL_VERTEX_ARRAY);
-//glEnableClientState(GL_COLOR_ARRAY);
-//glEnableClientState(GL_TEXTURE_COORD_ARRAY);
-
-
-
     glBindTexture(GL_TEXTURE_2D, this->ID);
     glTexImage2D(GL_TEXTURE_2D, 0, this->Internal_Format, width, height, 0, this->Image_Format, GL_UNSIGNED_BYTE, data);
     // set Texture wrap and filter modes

@@ -31,7 +31,7 @@ int main(){
 	//std::thread th_2(g);
 	//th_2.join();
 	Game* g =  new Game();
-	auto s =  std::async(std::launch::async, foo);
+//	auto s =  std::async(std::launch::async, foo);
 	g->Run();
 	std::cout << "Finished with Game\n";
 	delete g;

@@ -38,13 +38,13 @@ are implemented.
 #include <tmxlite/TileLayer.hpp>
 #include <tmxlite/detail/Log.hpp>
 
-//#include <SFML/Graphics/Drawable.hpp>
-//#include <SFML/Graphics/RenderStates.hpp>
-//#include <SFML/Graphics/RenderTarget.hpp>
-//#include <SFML/Graphics/Vertex.hpp>
-//#include <SFML/Graphics/Texture.hpp>
-//#include <SFML/Graphics/Transformable.hpp>
-//#include <SFML/System/Time.hpp>
+#include <SFML/Graphics/Drawable.hpp>
+#include <SFML/Graphics/RenderStates.hpp>
+#include <SFML/Graphics/RenderTarget.hpp>
+#include <SFML/Graphics/Vertex.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/Graphics/Transformable.hpp>
+#include <SFML/System/Time.hpp>
 
 #include <memory>
 #include <vector>
@@ -56,7 +56,7 @@ are implemented.
 #include <cmath>
 
 
-class MapLayer final  
+class MapLayer final : public sf::Drawable
 {
 public:
 

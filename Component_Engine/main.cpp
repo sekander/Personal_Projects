@@ -533,25 +533,25 @@ void processInput(GLFWwindow *window)
 
   if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
     {
-	    x_cam +=5;
+	    x_cam -=5;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     }
     if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
     {
-	    x_cam -=5;
+	    x_cam +=5;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     }
     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
     {
-	    y_cam -=5;
+	    y_cam +=5;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "Y cam : " << y_cam  << std::endl;
     }
     if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
     {
-	    y_cam +=5;
+	    y_cam -=5;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "Y cam : " << y_cam  << std::endl;
     }

@@ -147,10 +147,8 @@ void Game_Map::draw(GLFWwindow* window, glm::mat4 matrix)
 void Game_Map::loadMap()
 {
     tmx::Map map;
-    map.load("resources/map/demo.tmx");    
-    //map.load("resources/map/untitled.tmx");    
     //map.load("resources/map/platform.tmx");    
-    //map.load("resources/map/forest.tmx");    
+    map.load("resources/map/demo.tmx");    
     
     //create shared resources, shader and tileset textures
     initGLStuff(map);

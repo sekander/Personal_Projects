@@ -57,9 +57,9 @@ namespace Sekander
 		if(fullScreen)
 		{
 			_data->window.create(sf::VideoMode(width, height), title, sf::Style::Fullscreen);
-			//_data->machine.AddState(StateRef(new SplashState(this->_data, xml_DOC)));
+			_data->machine.AddState(StateRef(new SplashState(this->_data, xml_DOC)));
 			//this->_data->machine.AddState(StateRef(new GameState(_data)), true);
-			this->_data->machine.AddState(StateRef(new GameState(_data, xml_DOC)), true);
+			//this->_data->machine.AddState(StateRef(new GameState(_data, xml_DOC)), true);
 			_data->window.setVerticalSyncEnabled(true); // call it once, after creating the window
 		}
 		else

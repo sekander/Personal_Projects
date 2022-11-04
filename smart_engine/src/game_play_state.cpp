@@ -138,25 +138,25 @@ void GamePlayState::Input(float delta)
         _data.get()->render->change_frame(3);
     }
     if (glfwGetKey(_data.get()->window, GLFW_KEY_S) == GLFW_PRESS)
-	{    y += 2;
+	{    y -= 2;
         _data.get()->render->change_frame(0);
     }
 
     if (glfwGetKey(_data.get()->window, GLFW_KEY_RIGHT) == GLFW_PRESS)
     {
-	    x_cam +=1;
+	    x_cam -=1;
 	    _data.get()->o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     }
     if (glfwGetKey(_data.get()->window, GLFW_KEY_LEFT) == GLFW_PRESS)
     {
-	    x_cam -=1;
+	    x_cam +=1;
 	    _data.get()->o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     }
     if (glfwGetKey(_data.get()->window, GLFW_KEY_UP) == GLFW_PRESS)
     {
-	    y_cam -=1;
+	    y_cam +=1;
 	    _data.get()->o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "Y cam : " << y_cam  << std::endl;
     }

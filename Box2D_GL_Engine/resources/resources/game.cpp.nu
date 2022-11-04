@@ -22,7 +22,7 @@ SpriteRenderer    *Renderer;
 Game_Map *map;
 
 
-Sekander::EntityManager *manager;
+//Sekander::EntityManager *manager;
 GLFWwindow* create_openGL_window(int opengl_major_ver, int opengl_minor_ver, const char* win_title, int screen_width, int screen_height );
 
 
@@ -82,13 +82,17 @@ int main()
 
     //set renderedr
     Renderer = new SpriteRenderer(ResourceManager::GetShader("sprite"));
-
-    manager = new Sekander::EntityManager();
-
     map = new Game_Map();
 
-    map->run(window);    
+
+
+	map->run(window);    
+    map->set_matrix(o_cam->return_matrix());
     map->loadMap();
+/*
+    manager = new Sekander::EntityManager();
+
+
 
     manager->Add("b2Chrono", "resources/images/chrono.png", true);
     manager->Add("b2Tori", "resources/images/tori.png", true);
@@ -110,6 +114,7 @@ int main()
     manager->newEdge("Bottom", 0, SCR_HEIGHT, SCR_WIDTH, SCR_HEIGHT);
     
     manager->newEdge("platflorm", 100, 200, 150, 200);
+    */
 /*
     float x1 = start.x;
     float y1 = start.y;
@@ -236,7 +241,15 @@ int main()
                                 				glm::vec3(1.0f, 1.0f, 1.0f)             //colour
 								);
 	
-	
+			Renderer->DrawSprite(ResourceManager::GetTexture("face"),		//texture key 
+								"Face",
+								false,
+								false,
+								1, 1, 0,
+								glm::vec2(200.0f, 100.0f),	//Origin 
+								glm::vec2(512, 512), 	//Image size
+								0.0f);
+/*	
 			int b2_xpos, b2_ypos;	
 			int b2_xpos_1, b2_ypos_1;	
 			int b2_xpos_2, b2_ypos_2;	
@@ -281,15 +294,6 @@ int main()
                                 				glm::vec3(1.0f, 1.0f, 1.0f)             //colour
 								);
 
-			Renderer->DrawSprite(ResourceManager::GetTexture("face"),		//texture key 
-								"Face",
-								false,
-								false,
-								1, 1, 0,
-								glm::vec2(200.0f, 1000.0f),	//Origin 
-								glm::vec2(512, 512), 	//Image size
-								0.0f);
-
 //				debug_line.draw();
 			//	debug_line_2.draw();
 				manager->Render();
@@ -314,7 +318,7 @@ int main()
 			b2_xpos_2 = manager->Get("b2Tori")->body->GetPosition().x;  
 			b2_ypos_2 = manager->Get("b2Tori")->body->GetPosition().y;  
 			manager->Update();
-				
+*/				
         // end rendering to postprocessing framebuffer
         //Effects->EndRender();
         //// render postprocessing quad
@@ -407,27 +411,27 @@ void processInput(GLFWwindow *window)
 
     if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
     {
-	    x_cam -=5;
+	    x_cam +=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     }
     if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
     {
-	    x_cam +=5;
+	    x_cam -=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "X cam : " << x_cam  << std::endl;
     	//ResourceManager::GetShader("sprite").SetMatrix4("projection", o_cam->return_matrix());
     }
     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
     {
-	    y_cam +=1;
+	    y_cam -=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "Y cam : " << y_cam  << std::endl;
     	//ResourceManager::GetShader("sprite").SetMatrix4("projection", o_cam->return_matrix());
     }
     if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
     {
-	    y_cam -=1;
+	    y_cam +=1;
 	    o_cam->SetPosition(glm::vec3(x_cam, y_cam, z_cam));
             std::cout << "Y cam : " << y_cam  << std::endl;
     	//ResourceManager::GetShader("sprite").SetMatrix4("projection", o_cam->return_matrix());
