@@ -1,6 +1,7 @@
 # Personal_Projects
 
 <h2>SFML Engine</h2>
+The first engine I desined using SFML to create a functional game that allowed the player to navigate between different game states, a physics engine that detects collison between game objects and controlled the players speed using Box2D library, an XML parser to load in assets using tinyXML, and  
 
 <img src="images/Screenshot_2022-11-04_18-59-02.png" width="50%"></img> 
 <img src="images/Screenshot_2022-11-04_18-59-38.png" width="50%"></img> 
