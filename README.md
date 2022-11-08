@@ -9,14 +9,19 @@ The first engine I desined using SFML to create a functional game that allowed t
 
 
 <h2>SFML Server</h2>
+
+
 <img src="images/Screenshot_2022-11-04_19-00-39.png" width="50%"></img>
 
 <h2>Box2D Engine</h2>
+ My first attempt to build an OpenGL engine and using Box2D as the physics library, such that all the object that were drwan to OpenGL would behave Box2D physics engine. 
+ 
  
 <img src="images/Screenshot_2022-11-04_19-01-40.png" width="50%"></img> 
 
 
 <h2>Smart Engine</h2>
+This is an improvedment from the prior engine that was designed incorporating new techniques such as smart-pointers, and have multiple scenes with different objects drrawn using stacks. Smart-pointers made the code more easier to manage knowing any objects that were allocated would de-allocate once out of scope, and having different scenes added more flexiblilty and helped organaize the code giving a certain purpose to each scene. 
 
 <img src="images/Screenshot_2022-11-04_19-02-12.png" width="50%"></img> 
 <img src="images/Screenshot_2022-11-04_19-02-22.png" width="50%"></img> 
@@ -26,6 +31,7 @@ The first engine I desined using SFML to create a functional game that allowed t
 
 
 <h2>Component Engine</h2>
+The final addition to the OpenGL engine I created, levearging components allowed the code to 
 
 <img src="images/Screenshot_2022-11-04_19-03-15.png" width="50%"></img>
 
