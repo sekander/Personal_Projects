@@ -1,5 +1,5 @@
 # Personal_Projects
-My c++ projects I've developed through my coding journey
+My C++ projects I've developed through my coding journey
 
 <h2>SFML Engine</h2>
 The first engine I desined using SFML to create a functional game that allowed the player to navigate between different game states, a physics engine that detects collison between game objects and controlled the players speed using Box2D library, an XML parser to load in assets using tinyXML, and  
