@@ -6,13 +6,6 @@ The first engine I desined using SFML to create a functional game that allowed t
 <img src="images/Screenshot_2022-11-04_18-59-02.png" width="50%"></img> 
 <img src="images/Screenshot_2022-11-04_18-59-38.png" width="50%"></img> 
 
-
-
-<h2>SFML Server</h2>
-
-
-<img src="images/Screenshot_2022-11-04_19-00-39.png" width="50%"></img>
-
 <h2>Box2D Engine</h2>
  My first attempt to build an OpenGL engine and using Box2D as the physics library, such that all the object that were drwan to OpenGL would behave Box2D physics engine. 
  
