@@ -25,7 +25,7 @@ This is an improvedment from the prior engine that was designed incorporating ne
 
 
 <h2>Component Engine</h2>
-The final addition to the OpenGL engine I created, levearging components allowed the code to 
+The final addition to the OpenGL engine I created, levearging components allowed the code to become easily managed instead of objects have attributes they inherit components attaches behaviour to game objects giving certain functionality to associated objects. The reorganization of the engine I've designed is efficient with memory resulting in zero memory leaks.
 
 <img src="images/Screenshot_2022-11-04_19-03-15.png" width="50%"></img>
 
